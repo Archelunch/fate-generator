@@ -1,0 +1,17 @@
+app_name: Fate Generator
+environment: dev
+log_level: INFO
+
+# Artifacts (can be absolute or relative to project root)
+artifact_skeleton_path: artifacts/gepa_character_skeleton.json
+artifact_remaining_path: artifacts/gepa_remaining.json
+artifact_gm_hints_path: artifacts/gepa_gm_hints.json
+
+# DSPy / LLM
+dspy_model: gemini/gemini-2.5-flash-preview-09-2025
+dspy_temperature: 0.85
+dspy_max_tokens: 20000
+dspy_cache: false
+
+dspy_reflection_model: gemini/gemini-2.5-pro
+dspy_judge_model: gemini/gemini-2.5-flash

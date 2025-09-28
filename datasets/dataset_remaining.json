@@ -1,0 +1,2705 @@
+[
+  {
+    "input": {
+      "mode": "stunts",
+      "state": {
+        "meta": {
+          "idea": "Witty detective with a dark past",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "3ede17a0-d238-4489-acf7-7b3fc8d09d9d",
+            "name": "High Concept",
+            "description": "Quick-Witted Noir Detective",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "c03d283a-d923-422e-a13b-727ce1359a55",
+            "name": "Trouble",
+            "description": "My Past Won't Stay Buried",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [],
+        "stunts": []
+      },
+      "allow_overwrite": false,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "target_skill_name": null,
+      "action_type": "overcome",
+      "user_note": null
+    },
+    "output": {
+      "aspects": null,
+      "stunts": {
+        "id": null,
+        "name": "I've Seen It All Before",
+        "description": "Because your past is full of grim cases, you get a +2 to Overcome with Investigate when examining a situation that reminds you of a case you'd rather forget."
+      },
+      "notes": "This stunt provides a mechanical bonus directly tied to your character's Trouble aspect, 'My Past Won't Stay Buried'. This encourages bringing that aspect into play in ways that aren't just a compel, giving you an edge when confronting situations that echo your dark history."
+    }
+  },
+  {
+    "input": {
+      "mode": "stunts",
+      "state": {
+        "meta": {
+          "idea": "Exiled noble turned wandering swordmage",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "02646325-41ec-4db8-be3b-c155bd57f6a9",
+            "name": "High Concept",
+            "description": "Exiled Scion of a Magical Bloodline",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "408b959d-1358-4527-a0cd-bc418a9cdcce",
+            "name": "Trouble",
+            "description": "My Family's Enemies Are Now Mine",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "d260c07d-a589-475b-91f7-442146b94807",
+            "name": "Fight",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "ac469c9b-b73f-4447-aee6-ac4b7deac86c",
+            "name": "Lore",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "5b2805eb-7b8c-4a75-bedc-1d88a0872b4b",
+            "name": "Will",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "d0048088-2fa5-41d4-890c-a147e49879d7",
+            "name": "Athletics",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": []
+      },
+      "allow_overwrite": false,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "target_skill_name": "Fight",
+      "action_type": "create_advantage",
+      "user_note": "Make it cinematic."
+    },
+    "output": {
+      "aspects": null,
+      "stunts": {
+        "id": null,
+        "name": "Arcane Flourish",
+        "description": "When you use Fight to Create an Advantage by weaving a minor cantrip into your swordplay, creating aspects like **Dazzling Feint** or **Entangling Shadows**, you gain an additional free invoke if you succeed with style."
+      },
+      "notes": "This stunt for your swordmage focuses on cinematic action, blending swordplay with magic. It enhances your ability to control the flow of a conflict by rewarding exceptional Create an Advantage actions with more narrative power, fitting the 'wandering swordmage' concept."
+    }
+  },
+  {
+    "input": {
+      "mode": "stunts",
+      "state": {
+        "meta": {
+          "idea": "Cynical medic who can hear ghosts",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "a831e812-8b92-4754-8400-b1018ef87a4c",
+            "name": "High Concept",
+            "description": "Pragmatic Medic Plagued by Spirits",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "122ec2a5-ca32-4336-a0a8-56ad857d750d",
+            "name": "Trouble",
+            "description": "The Whispers Never Stop",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "7c52f969-9cb8-418c-a2fe-aceb1dc873a8",
+            "name": "Will",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "b0197ff7-d443-4cef-aadd-666f7717d198",
+            "name": "Lore",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "e3d83da0-24ba-4dbb-a2ee-0bdfe84679c6",
+            "name": "Notice",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "5b5ccc42-fc1b-476f-95df-a6decac35f15",
+            "name": "Empathy",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": [
+          {
+            "id": "c256854d-76ec-4d2d-826b-a3c4fd06aace",
+            "name": "Acrobat's Flourish",
+            "description": "+2 to Overcome with Athletics when flipping across obstacles.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      },
+      "allow_overwrite": false,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "target_skill_name": "Will",
+      "action_type": "attack",
+      "user_note": null
+    },
+    "output": {
+      "aspects": null,
+      "stunts": {
+        "id": null,
+        "name": "Psychic Scalpel",
+        "description": "Because of my precise medical training and constant exposure to the supernatural, I get a +2 to Will when I make mental attacks against ghosts or other spiritual entities."
+      },
+      "notes": "This stunt provides a direct offensive use for your highest skill, Will, that perfectly matches your character's concept as a medic who deals with spirits. The name 'Psychic Scalpel' reinforces the blend of medical and supernatural themes."
+    }
+  },
+  {
+    "input": {
+      "mode": "stunts",
+      "state": {
+        "meta": {
+          "idea": "Optimistic archaeologist chasing forbidden myths",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "caf3acc9-ce03-4441-b921-1dd545e62d12",
+            "name": "High Concept",
+            "description": "Plucky Archaeologist Seeking Forbidden Truths",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "d25e894c-38e8-44e8-81d6-d64a34738048",
+            "name": "Trouble",
+            "description": "A Magnet for Mythological Misfortune",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [],
+        "stunts": [
+          {
+            "id": "2b5e58eb-0696-4df9-a886-36387bd67931",
+            "name": "Silver Tongue",
+            "description": "+2 to Create Advantage with Rapport when sowing doubt.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      },
+      "allow_overwrite": false,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "target_skill_name": null,
+      "action_type": "defend",
+      "user_note": "Once per scene."
+    },
+    "output": {
+      "aspects": null,
+      "stunts": {
+        "id": null,
+        "name": "Foretold in the Hieroglyphs",
+        "description": "Once per scene, you can use your Lore skill to Defend against a supernatural threat or an ancient trap."
+      },
+      "notes": "Suggesting a new stunt for the character. This stunt provides a defensive option tied to their archaeological knowledge, fitting the concept of dealing with mythological dangers. It is limited to once per scene as requested."
+    }
+  },
+  {
+    "input": {
+      "mode": "stunts",
+      "state": {
+        "meta": {
+          "idea": "Retired monster hunter pulled back in",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "283470d2-9814-4e5c-9454-3a58f5c6b531",
+            "name": "High Concept",
+            "description": "Reluctant Slayer of Nightmares",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "5de6f710-720e-455a-a03a-ce9b525ead28",
+            "name": "Trouble",
+            "description": "The Monsters Haven't Forgotten Me",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "d617a797-c47b-4669-bb64-fbeb970f4654",
+            "name": "Investigate",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "6a1ea357-ca09-4738-89bf-ace4317f1ef3",
+            "name": "Fight",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "f32a9b6a-bb9b-4a1e-b1d3-e110e47d7128",
+            "name": "Lore",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "3ca8ef71-b70a-4ef9-b84f-1312d14f18ec",
+            "name": "Notice",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": []
+      },
+      "allow_overwrite": false,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "target_skill_name": null,
+      "action_type": "overcome",
+      "user_note": "Edge-case utility."
+    },
+    "output": {
+      "aspects": null,
+      "stunts": {
+        "id": null,
+        "name": "Monstrous Logic",
+        "description": "You've spent a lifetime hunting things that don't follow human rules. You gain a +2 bonus when you use Investigate to Overcome an obstacle that is a trap, puzzle, or non-physical barrier created by a supernatural entity."
+      },
+      "notes": "This stunt provides an edge-case utility, as requested. It leverages your highest skill, Investigate, for the Overcome action in a very specific, flavourful context: dealing with the unnatural traps and puzzles monsters leave behind. It reinforces the idea of a seasoned hunter who has seen it all and can recognize the patterns in a creature's thinking."
+    }
+  },
+  {
+    "input": {
+      "mode": "stunts",
+      "state": {
+        "meta": {
+          "idea": "Runaway alchemist seeking a cure",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "8f3ed023-a62b-434a-901e-f4910f81a14c",
+            "name": "High Concept",
+            "description": "Fugitive Alchemist on a Desperate Quest",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "b96318e0-82d9-40bd-bd97-c7220969855b",
+            "name": "Trouble",
+            "description": "My Magnum Opus Is My Curse",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [],
+        "stunts": []
+      },
+      "allow_overwrite": false,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "target_skill_name": null,
+      "action_type": "overcome",
+      "user_note": null
+    },
+    "output": {
+      "aspects": null,
+      "stunts": {
+        "id": null,
+        "name": "Alchemical Analysis",
+        "description": "Because of your deep understanding of chemical and mystical properties, you can use Lore instead of Investigate to Overcome obstacles when analyzing strange substances, magical traps, or complex ailments."
+      },
+      "notes": "Here's a stunt suggestion that leans into your character's alchemical background and their quest for a cure. It provides a powerful mechanical benefit for overcoming challenges related to research and analysis, which seems central to their story."
+    }
+  },
+  {
+    "input": {
+      "mode": "stunts",
+      "state": {
+        "meta": {
+          "idea": "Clockwork tinkerer with a human heart",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "16d2c6fb-fd7f-4f3b-84be-5c75029e13c6",
+            "name": "High Concept",
+            "description": "Clockwork Automaton with a Human Heart",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "a8dc59e2-5ac7-4b5e-8b5d-a76893865f54",
+            "name": "Trouble",
+            "description": "My Emotions Overload My Circuits",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "f0580538-8e7c-497e-be13-ebd9f9d39be5",
+            "name": "Crafts",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "791faf3b-d7f8-4487-8ee1-52cb8dfcd449",
+            "name": "Empathy",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "c2568245-dfdf-4635-ae17-c285d229f00e",
+            "name": "Lore",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "4dc521eb-4a30-4ad5-9770-b449b0ea02d6",
+            "name": "Notice",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": []
+      },
+      "allow_overwrite": false,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "target_skill_name": "Crafts",
+      "action_type": "create_advantage",
+      "user_note": "Make it cinematic."
+    },
+    "output": {
+      "aspects": null,
+      "stunts": {
+        "id": null,
+        "name": "Clockwork Cascade",
+        "description": "Once per scene, when you use Crafts to create an advantage by jury-rigging a complex contraption from nearby parts, you can declare you're setting up a cascade. If you succeed, the situation aspect you create is particularly complex and difficult to undo, imposing a +2 opposition against any Overcome rolls to remove it."
+      },
+      "notes": "Here is a cinematic stunt for Crafts. It allows you to create a complex, hard-to-remove advantage on the fly by building an intricate device, fitting the clockwork tinkerer concept perfectly."
+    }
+  },
+  {
+    "input": {
+      "mode": "stunts",
+      "state": {
+        "meta": {
+          "idea": "Gentle giant sworn to nonviolence",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "491f860c-2f12-433e-8317-1805f373df06",
+            "name": "High Concept",
+            "description": "A Mountain of a Man with a Heart of a Dove",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "9edec1a8-4c40-4ea4-8b76-2af2548c8ada",
+            "name": "Trouble",
+            "description": "The Scars of My Violent Past",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "e46e0b76-995e-4b8e-a662-d3a682520bec",
+            "name": "Physique",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "fefde442-e4f8-4a64-8409-80c846ec5668",
+            "name": "Will",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "e72bc353-4838-4753-8357-bf71105acf43",
+            "name": "Empathy",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "a91f5f9b-a3cb-4a97-89cf-876187a385cb",
+            "name": "Rapport",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": [
+          {
+            "id": "164fb61e-35e1-4a5e-aacf-41e1c3b362c2",
+            "name": "Acrobat's Flourish",
+            "description": "+2 to Overcome with Athletics when flipping across obstacles.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      },
+      "allow_overwrite": false,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "target_skill_name": "Physique",
+      "action_type": "attack",
+      "user_note": null
+    },
+    "output": {
+      "aspects": null,
+      "stunts": {
+        "id": null,
+        "name": "A Bear's Embrace",
+        "description": "Because I am a **Mountain of a Man** sworn to nonviolence, I gain a +2 when I use Physique to make an attack intended to non-lethally restrain or grapple an opponent."
+      },
+      "notes": "This stunt provides a way to use Physique for an 'attack' action that aligns perfectly with your character's non-violent creed. It focuses on subduing and restraining opponents rather than causing harm, turning your immense strength into a tool for de-escalation."
+    }
+  },
+  {
+    "input": {
+      "mode": "stunts",
+      "state": {
+        "meta": {
+          "idea": "Silver-tongued thief with a code",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "f766d97a-4f04-4227-a906-2b4da11d9f6e",
+            "name": "High Concept",
+            "description": "Gentleman Thief with an Unbreakable Code",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "260faffb-e53b-44ce-ac74-1d712079fa9b",
+            "name": "Trouble",
+            "description": "Can't Turn Down a Worthy Challenge",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [],
+        "stunts": [
+          {
+            "id": "b1d1c46d-3d42-441f-875c-b52c08745b5f",
+            "name": "Silver Tongue",
+            "description": "+2 to Create Advantage with Rapport when sowing doubt.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      },
+      "allow_overwrite": false,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "target_skill_name": null,
+      "action_type": "defend",
+      "user_note": "Once per scene."
+    },
+    "output": {
+      "aspects": null,
+      "stunts": {
+        "id": null,
+        "name": "Unshakeable Composure",
+        "description": "Once per scene, gain +2 to your Will roll when defending against a Provoke attack."
+      },
+      "notes": "A gentleman thief must remain cool under pressure. This stunt provides a strong social defense option, reflecting your character's calm and collected nature when someone tries to intimidate or emotionally manipulate them. It's a great complement to the more proactive 'Silver Tongue' stunt."
+    }
+  },
+  {
+    "input": {
+      "mode": "stunts",
+      "state": {
+        "meta": {
+          "idea": "Haunted bard who remembers future songs",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "7914f1a7-2d79-4361-acbf-4f6873d86555",
+            "name": "High Concept",
+            "description": "Prescient Minstrel Haunted by Unsung Melodies",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "04be28d3-1c55-4845-8c18-566d0cf3ee5f",
+            "name": "Trouble",
+            "description": "These Aren't My Songs",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "7b4727bf-fb11-45b9-b8e6-fa4beab23ad0",
+            "name": "Rapport",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "04932a6e-be70-497a-9e77-72a65a3e24d8",
+            "name": "Empathy",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "0dae191f-6c02-4abe-b919-c94abf82c479",
+            "name": "Lore",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "6d2e2023-f128-4ad2-8320-647465907252",
+            "name": "Will",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": []
+      },
+      "allow_overwrite": false,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "target_skill_name": null,
+      "action_type": "overcome",
+      "user_note": "Edge-case utility."
+    },
+    "output": {
+      "aspects": null,
+      "stunts": {
+        "id": null,
+        "name": "Hymn of the Oncoming Storm",
+        "description": "The future songs are a cacophony of fear, sorrow, and dread, but you've learned to use that. Once per session, when you must make an Overcome roll to resist mental or emotional influence, you may use Rapport instead of Will. You are not calming yourself, but rather overwhelming the external influence with a glimpse of all the sorrows yet to come."
+      },
+      "notes": "This stunt provides a thematic, edge-case use for your peak skill (Rapport) to overcome a key character weakness (low Will). It directly engages with the 'Haunted' part of your High Concept, turning a vulnerability into a situational strength."
+    }
+  },
+  {
+    "input": {
+      "mode": "stunts",
+      "state": {
+        "meta": {
+          "idea": "Daring skyship pilot chasing living storms",
+          "setting": "Shattered archipelago where cities float above an endless storm belt; guilds hoard wind-lore.",
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "fe77e615-3e9b-47ba-b199-f78de9cdfade",
+            "name": "High Concept",
+            "description": "Storm-Chasing Skyship Ace",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "5d7bda09-e23e-4432-8315-24d5df7168cc",
+            "name": "Trouble",
+            "description": "The Wind-Wardens Want Me Grounded",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [],
+        "stunts": []
+      },
+      "allow_overwrite": false,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "target_skill_name": null,
+      "action_type": "overcome",
+      "user_note": null
+    },
+    "output": {
+      "aspects": null,
+      "stunts": {
+        "id": null,
+        "name": "Eye of the Storm",
+        "description": "Because I've flown through the heart of a living gale, I get a +2 to Overcome obstacles with Drive when piloting my skyship through hazardous weather."
+      },
+      "notes": "Here's a stunt focused on the core concept of piloting through dangerous storms, specifically helping with the Overcome action as requested."
+    }
+  },
+  {
+    "input": {
+      "mode": "stunts",
+      "state": {
+        "meta": {
+          "idea": "Archivist witch binding stray memories",
+          "setting": "A city built inside a petrified god; memories become spirits that must be archived or set free.",
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "08f525ea-61c2-417a-8f3f-bca24b2889fc",
+            "name": "High Concept",
+            "description": "Memory-Binding Witch Archivist",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "c9a869cc-b304-4468-be4b-f84e6da47ec8",
+            "name": "Trouble",
+            "description": "Echoes of Other Lives Haunt Me",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "886c27b6-08c9-4956-a03f-f5a7b468433d",
+            "name": "Lore",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "33180707-66b5-4c8e-9781-78086ab1d570",
+            "name": "Will",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "ced4cecf-7de8-4f6f-aaff-fc652b133e68",
+            "name": "Investigate",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "2f0c39a6-36da-48af-9d49-71152394ee7c",
+            "name": "Empathy",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": []
+      },
+      "allow_overwrite": false,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "target_skill_name": "Lore",
+      "action_type": "create_advantage",
+      "user_note": "Make it cinematic."
+    },
+    "output": {
+      "aspects": null,
+      "stunts": {
+        "id": null,
+        "name": "Inscription of a Lingering Echo",
+        "description": "When you succeed with style using Lore to create an advantage by pulling a memory from a person or place, you can choose to create a lingering spectral echo. This aspect is placed on the scene with one free invoke and requires an Overcome action against Fair (+2) difficulty to remove, instead of you getting a second free invoke."
+      },
+      "notes": "This stunt gives your Lore skill a unique, cinematic flair when you're creating advantages. It allows you to make your discoveries more tangible and impactful on the scene, turning a fleeting memory into a persistent obstacle or tool for your allies."
+    }
+  },
+  {
+    "input": {
+      "mode": "stunts",
+      "state": {
+        "meta": {
+          "idea": "Repentant warlock severing a pact",
+          "setting": "Broken kingdoms after a demon winter; fiendish contracts persist like legal curses.",
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "a2943a0d-3b03-4c14-977d-f8a761202a2b",
+            "name": "High Concept",
+            "description": "Pact-Cursed Warlock on the Run",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "1245713a-7c35-4cb1-852f-3f3e41c68bfe",
+            "name": "Trouble",
+            "description": "The Fiend's Mark Still Burns",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "ac97b010-2af0-4614-9ecd-8bdd959a19c5",
+            "name": "Will",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "de8d75da-4811-4d58-a2eb-68c1bfc37be3",
+            "name": "Lore",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "30d35f6f-d5bc-4e47-97fe-afba205aa913",
+            "name": "Deceive",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "84307ce9-4909-45a1-95f5-8cbe462b7cd0",
+            "name": "Stealth",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": [
+          {
+            "id": "44482278-2fda-41ac-b487-5e69a91747dc",
+            "name": "Acrobat's Flourish",
+            "description": "+2 to Overcome with Athletics when flipping across obstacles.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      },
+      "allow_overwrite": false,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "target_skill_name": "Will",
+      "action_type": "attack",
+      "user_note": null
+    },
+    "output": {
+      "aspects": null,
+      "stunts": {
+        "id": null,
+        "name": "Soulfire Lash",
+        "description": "Because I know the pain of a corrupted soul, I can turn that knowledge into a weapon. Gain a +2 to Will when attacking a target that is demonic, infernal, or otherwise supernaturally bound."
+      },
+      "notes": "This stunt gives you a powerful combat option using your highest skill, Will. It's thematically tied to your character's backstory as a warlock, making you particularly effective against the very forces you're trying to escape."
+    }
+  },
+  {
+    "input": {
+      "mode": "stunts",
+      "state": {
+        "meta": {
+          "idea": "Time-lost ranger mapping shifting wilds",
+          "setting": "Forests rearrange every dawn; cartographers are folk heroes and oracles argue with maps.",
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "d1e1f8b0-013d-4a2a-8713-d5b5c11848f2",
+            "name": "High Concept",
+            "description": "Time-Lost Surveyor of the Shifting Wilds",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "27b40bc6-b955-45ee-87b7-8c34e6642bbd",
+            "name": "Trouble",
+            "description": "My Maps Lead to Places That No Longer Exist",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [],
+        "stunts": [
+          {
+            "id": "bf93b1ea-15c5-4d92-be36-527eb1f959d4",
+            "name": "Silver Tongue",
+            "description": "+2 to Create Advantage with Rapport when sowing doubt.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      },
+      "allow_overwrite": false,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "target_skill_name": null,
+      "action_type": "defend",
+      "user_note": "Once per scene."
+    },
+    "output": {
+      "aspects": null,
+      "stunts": {
+        "id": null,
+        "name": "The Land Defends Me",
+        "description": "Once per scene, when defending in the wilds, you can gain a +3 bonus by predicting a sudden environmental shift (a root snags your opponent, a branch falls in their way) that hinders an attack."
+      },
+      "notes": "A defensive stunt that leans into the character's unique connection with the shifting wilds. It's a powerful, reactive ability that makes them feel at home and in control of their chaotic environment."
+    }
+  },
+  {
+    "input": {
+      "mode": "stunts",
+      "state": {
+        "meta": {
+          "idea": "Diplomat from a fallen moon",
+          "setting": "Crystalline lunar shards crashed into the sea; refugees barter starlight technology for sanctuary.",
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "e8db639d-bb57-4b74-863f-38c3704e128c",
+            "name": "High Concept",
+            "description": "Exiled Emissary of the Shattered Moon",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "e2282ef4-d1cd-4f46-8bf5-4dbb35028964",
+            "name": "Trouble",
+            "description": "My People's Survival Rests On My Shoulders",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "991c5c11-ecf1-4333-a7e2-d843ac3325f0",
+            "name": "Rapport",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "bf059f69-2ed9-4a23-a63b-0ef404373d15",
+            "name": "Empathy",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "d5cd70c8-c14c-494d-9480-315c45c25f33",
+            "name": "Contacts",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "5a55629e-d1f5-40be-a361-f1fdf1a8b75a",
+            "name": "Will",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": []
+      },
+      "allow_overwrite": false,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "target_skill_name": null,
+      "action_type": "overcome",
+      "user_note": "Edge-case utility."
+    },
+    "output": {
+      "aspects": null,
+      "stunts": {
+        "id": null,
+        "name": "Whispering Starlight Shard",
+        "description": "Once per session, when faced with an obstacle involving ancient or forgotten technology, you can use Rapport instead of Lore to overcome it. You coax the necessary information from the living memory of your personal starlight shard."
+      },
+      "notes": "This stunt provides a unique, edge-case utility by allowing you to use your high Rapport skill in place of a likely-low Lore skill. It directly incorporates the 'starlight technology' theme from your character's background, giving you a distinct advantage in specific situations."
+    }
+  },
+  {
+    "input": {
+      "mode": "aspects",
+      "state": {
+        "meta": {
+          "idea": "Runaway alchemist seeking a cure",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "0b1b6922-9353-46fc-a112-74ac2d3facde",
+            "name": "High Concept",
+            "description": "Fugitive Alchemist on a Desperate Quest",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "45e64171-5d6f-425d-9ae2-be8ec6abfbaf",
+            "name": "Trouble",
+            "description": "My Magnum Opus Is My Curse",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "aa2bb1db-187a-4b1d-a31a-76a4a147faf5",
+            "name": "Crafts",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "046f9c14-fde5-4bc1-925b-e4319b5d6c51",
+            "name": "Lore",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "4f4cadd8-e024-4c5f-b87e-7bc155c240f7",
+            "name": "Investigate",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "5cbd51e8-6314-4c48-be6a-af6404d92cdc",
+            "name": "Will",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": []
+      },
+      "allow_overwrite": false,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "aspect_slots_left": 2,
+      "user_note": "Double-edged phrasing."
+    },
+    "output": {
+      "aspects": {
+        "id": null,
+        "name": "The Alchemists' Guild Wants Its Secrets Back",
+        "description": "I created my Magnum Opus using forbidden knowledge, and now the Guild will stop at nothing to reclaim it—or silence me permanently."
+      },
+      "stunts": null,
+      "notes": "This aspect introduces a specific antagonist, giving a reason for being a fugitive and adding immediate stakes. It's double-edged: you can invoke it when using your unique alchemical knowledge, but it can be compelled to bring in Guild assassins or other complications at the worst possible moments."
+    }
+  },
+  {
+    "input": {
+      "mode": "aspects",
+      "state": {
+        "meta": {
+          "idea": "Clockwork tinkerer with a human heart",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "9ab8bcca-9329-4f9a-a684-37a63cdc406e",
+            "name": "High Concept",
+            "description": "Clockwork Automaton with a Human Heart",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "c5b7bffc-853b-4c9d-b9da-b76ebd8f39b7",
+            "name": "Trouble",
+            "description": "My Emotions Overload My Circuits",
+            "locked": false,
+            "userEdited": true
+          },
+          {
+            "id": "51f78d18-a7b6-4079-bf8d-b896a4a14e3a",
+            "name": "Old Debt",
+            "description": "Owes favors to a shadowy syndicate.",
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "skills": [
+          {
+            "id": "e00ae3c1-5501-4917-808a-b8053e7884f0",
+            "name": "Crafts",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "8b59c721-0d6e-4aff-8767-2b7234cdc149",
+            "name": "Empathy",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "da24040f-1227-4055-80af-ce1d12d7c22f",
+            "name": "Lore",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "d00e4bd1-b67b-47c5-853f-4c924bdcedc7",
+            "name": "Notice",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": []
+      },
+      "allow_overwrite": true,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "aspect_slots_left": 1,
+      "user_note": null
+    },
+    "output": {
+      "aspects": {
+        "id": null,
+        "name": "My Heart is a Priceless Artifact",
+        "description": "My power source and emotional core is a unique and coveted object that others would kill to possess."
+      },
+      "stunts": null,
+      "notes": "This aspect makes the 'human heart' a literal, tangible element that drives the story. It can be invoked for feats of endurance or when your unique nature gives you insight. It's also a powerful source for compels, as collectors, scientists, or the syndicate you owe might try to steal or control the artifact at the core of your being."
+    }
+  },
+  {
+    "input": {
+      "mode": "aspects",
+      "state": {
+        "meta": {
+          "idea": "Gentle giant sworn to nonviolence",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "6617ebf3-6878-438e-a851-4e42d2e19818",
+            "name": "High Concept",
+            "description": "A Mountain of a Man with a Heart of a Dove",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "52554410-3ecf-4a01-8eab-aec5e9f3cda8",
+            "name": "Trouble",
+            "description": "The Scars of My Violent Past",
+            "locked": false,
+            "userEdited": true
+          },
+          {
+            "id": "6f424c8a-4faf-4de1-9660-79076306dc59",
+            "name": "Mentor's Lesson",
+            "description": "Never strike first—set the stage.",
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "7cb652c5-3e8e-44fc-8b54-5d7e5c7075aa",
+            "name": "Lucky Charm",
+            "description": "Superstition that sometimes works.",
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "skills": [
+          {
+            "id": "f327626a-5384-4593-b825-259d12b4d505",
+            "name": "Physique",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "75667e76-183b-4e45-9f92-defdda72ffa4",
+            "name": "Will",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "0d2a6947-2edf-4782-a8d7-19639cb75211",
+            "name": "Empathy",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "1c89600d-0b77-4fa0-8710-e450122f4034",
+            "name": "Rapport",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": []
+      },
+      "allow_overwrite": false,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "aspect_slots_left": 1,
+      "user_note": "Keep them grounded in the setting."
+    },
+    "output": {
+      "aspects": {
+        "id": null,
+        "name": "Strength is for Building, Not Breaking",
+        "description": "This personal creed allows him to excel at constructive uses of his power, but presents a difficult choice when destruction seems like the only answer."
+      },
+      "stunts": null,
+      "notes": "This aspect provides a clear philosophy for the character that ties directly into his high Physique skill. It creates interesting scenarios for both invokes (using his strength for constructive, non-violent purposes) and compels (when faced with a situation where breaking things seems like the only option)."
+    }
+  },
+  {
+    "input": {
+      "mode": "aspects",
+      "state": {
+        "meta": {
+          "idea": "Silver-tongued thief with a code",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "b6effb97-9441-451e-9080-c87f34a372c5",
+            "name": "High Concept",
+            "description": "Gentleman Thief with an Unbreakable Code",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "ee3b15f7-7b9c-47e9-a348-1358e9bd2b69",
+            "name": "Trouble",
+            "description": "Can't Turn Down a Worthy Challenge",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "d5c0f345-5e2c-4fda-a93d-8dbf216934f7",
+            "name": "Deceive",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "01c2854b-aa00-454a-a39e-e36d856d114f",
+            "name": "Burglary",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "5c8257c7-bbe5-4fc2-8f01-a2701e666364",
+            "name": "Stealth",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "731b8226-ead2-4611-bd47-a86deda722a9",
+            "name": "Rapport",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": []
+      },
+      "allow_overwrite": true,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "aspect_slots_left": 3,
+      "user_note": null
+    },
+    "output": {
+      "aspects": {
+        "id": null,
+        "name": "A Reputation That Precedes Me",
+        "description": "Whether as a charming socialite or a phantom thief, people have heard of me. This can open doors, but it also means I'm the first one they suspect when something goes missing."
+      },
+      "stunts": null,
+      "notes": "This aspect plays into the 'Gentleman Thief' concept. It's double-edged: your fame can grant you access and intimidate rivals, but it also brings unwanted attention from the law and competitors, tying into your Trouble."
+    }
+  },
+  {
+    "input": {
+      "mode": "aspects",
+      "state": {
+        "meta": {
+          "idea": "Haunted bard who remembers future songs",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "a72b0adc-c5b6-4745-9672-f9ea1f768a6e",
+            "name": "High Concept",
+            "description": "Prescient Minstrel Haunted by Unsung Melodies",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "56310a67-75de-4504-8ccc-c398cd46b643",
+            "name": "Trouble",
+            "description": "These Aren't My Songs",
+            "locked": false,
+            "userEdited": true
+          },
+          {
+            "id": "d45cfa09-6a2b-4255-a4a3-995d3c610a3a",
+            "name": "Reputation Precedes",
+            "description": "Doors open—sometimes to traps.",
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "skills": [
+          {
+            "id": "30486e9e-5c48-4f44-a43e-30579359f199",
+            "name": "Rapport",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "22ab120d-c14d-4279-94a2-ae9fc1c84adb",
+            "name": "Empathy",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "0175fbb7-ec1e-4aef-9ff6-a0f45e5f96d2",
+            "name": "Lore",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "cfe84d98-70ac-46be-90cb-6e2eb1ac6595",
+            "name": "Will",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": []
+      },
+      "allow_overwrite": false,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "aspect_slots_left": 1,
+      "user_note": "Short and punchy."
+    },
+    "output": {
+      "aspects": {
+        "id": null,
+        "name": "The Right Tune at the Right Time",
+        "description": "Sometimes the 'right' tune is a dirge at a wedding."
+      },
+      "stunts": null,
+      "notes": "This aspect connects your prescience directly to your role as a bard, suggesting you instinctively know the perfect song for any moment—for better or for worse. It's a great way to justify using your high Rapport or Empathy in unusual situations, and the description provides a clear hook for compels."
+    }
+  },
+  {
+    "input": {
+      "mode": "aspects",
+      "state": {
+        "meta": {
+          "idea": "Daring skyship pilot chasing living storms",
+          "setting": "Shattered archipelago where cities float above an endless storm belt; guilds hoard wind-lore.",
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "0f0be1a1-9f46-469c-a57f-7178a7018a98",
+            "name": "High Concept",
+            "description": "Storm-Chasing Skyship Ace",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "187fc597-7e47-4f37-af97-9a0738f4c6b1",
+            "name": "Trouble",
+            "description": "The Wind-Wardens Want Me Grounded",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "710cb95f-b47d-408a-aef4-bdb35f99cc16",
+            "name": "Drive",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "ec590052-4536-4065-b939-7fa6c5409e13",
+            "name": "Notice",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "f47ae28c-b056-4189-abcb-b11e2c4121f7",
+            "name": "Will",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "fdf98c08-59a4-46bc-b38d-1beb9debc308",
+            "name": "Crafts",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": []
+      },
+      "allow_overwrite": false,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "aspect_slots_left": 2,
+      "user_note": "Double-edged phrasing."
+    },
+    "output": {
+      "aspects": {
+        "id": null,
+        "name": "My Ship is a Thing of Beauty and Patches",
+        "description": "The 'Tempest Treader' is a custom marvel, faster and more agile than any guild-built vessel, but its bleeding-edge components are prone to failing under pressure."
+      },
+      "stunts": null,
+      "notes": "This aspect gives you a strong connection to your skyship, your primary tool. It's double-edged: you can invoke its superior capabilities when you need a burst of speed or a tight turn, but it can be compelled against you when a crucial, jury-rigged system breaks down in the middle of a storm or a chase."
+    }
+  },
+  {
+    "input": {
+      "mode": "aspects",
+      "state": {
+        "meta": {
+          "idea": "Archivist witch binding stray memories",
+          "setting": "A city built inside a petrified god; memories become spirits that must be archived or set free.",
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "10ee589d-394c-4312-8773-d1855a83b4a4",
+            "name": "High Concept",
+            "description": "Memory-Binding Witch Archivist",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "85fd33b6-8337-482b-aa03-15b0de19fda5",
+            "name": "Trouble",
+            "description": "Echoes of Other Lives Haunt Me",
+            "locked": false,
+            "userEdited": true
+          },
+          {
+            "id": "5e3aeda6-fa97-4196-ac6e-e82088577642",
+            "name": "Old Debt",
+            "description": "Owes favors to a shadowy syndicate.",
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "skills": [
+          {
+            "id": "934d05d8-413b-4bf3-81b3-313d91409d24",
+            "name": "Lore",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "da6aaef8-6785-4444-8dc1-36d7e9b237c8",
+            "name": "Will",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "159a7d43-795d-43fa-a51d-b082e89a5469",
+            "name": "Investigate",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "7d719d8b-2398-4eea-8241-d176a8cff86a",
+            "name": "Empathy",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": []
+      },
+      "allow_overwrite": true,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "aspect_slots_left": 1,
+      "user_note": null
+    },
+    "output": {
+      "aspects": {
+        "id": "5e3aeda6-fa97-4196-ac6e-e82088577642",
+        "name": "Keeper of the Silent Archive",
+        "description": "My hidden library of memory-spirits is both a sanctuary and a great vulnerability."
+      },
+      "stunts": null,
+      "notes": "This aspect provides a concrete place of power and responsibility that is deeply tied to your character's concept. It offers clear opportunities for invokes (accessing forgotten knowledge from the archive) and compels (an entity attacks the archive, a dangerous memory escapes, or its upkeep requires a difficult sacrifice)."
+    }
+  },
+  {
+    "input": {
+      "mode": "aspects",
+      "state": {
+        "meta": {
+          "idea": "Repentant warlock severing a pact",
+          "setting": "Broken kingdoms after a demon winter; fiendish contracts persist like legal curses.",
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "0732f78c-bcf5-4f44-bb19-a6a76cd2debd",
+            "name": "High Concept",
+            "description": "Pact-Cursed Warlock on the Run",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "400981cd-af9d-4f5a-896d-e34a1ae97da3",
+            "name": "Trouble",
+            "description": "The Fiend's Mark Still Burns",
+            "locked": false,
+            "userEdited": true
+          },
+          {
+            "id": "999e986c-1d48-4101-aebf-33390d50e967",
+            "name": "Mentor's Lesson",
+            "description": "Never strike first—set the stage.",
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "97ffb121-b8bc-45e8-8d2a-6b8f016575c3",
+            "name": "Lucky Charm",
+            "description": "Superstition that sometimes works.",
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "skills": [
+          {
+            "id": "e8c8d665-c41f-48c4-b406-ea6d005b6664",
+            "name": "Will",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "b3dd688a-996e-4c05-b494-5632afb099eb",
+            "name": "Lore",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "2d197a98-e48f-40bb-8c53-70083148a6c4",
+            "name": "Deceive",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "4ba38d0d-a522-43ae-be93-8033d98983d1",
+            "name": "Stealth",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": []
+      },
+      "allow_overwrite": false,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "aspect_slots_left": 1,
+      "user_note": "Keep them grounded in the setting."
+    },
+    "output": {
+      "aspects": {
+        "id": null,
+        "name": "Bound by Fine Print and Blood",
+        "description": "My pact is a labyrinth of legalese, a source of loopholes and hidden traps."
+      },
+      "stunts": null,
+      "notes": "This aspect connects your character's core conflict with the setting's idea of 'legal curses'. It creates a clear reason to use your high Lore skill to find loopholes, and offers the GM a way to compel you with forgotten clauses in the demonic contract."
+    }
+  },
+  {
+    "input": {
+      "mode": "aspects",
+      "state": {
+        "meta": {
+          "idea": "Time-lost ranger mapping shifting wilds",
+          "setting": "Forests rearrange every dawn; cartographers are folk heroes and oracles argue with maps.",
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "3b42f6aa-2136-4a21-ba69-c39c1fa4a092",
+            "name": "High Concept",
+            "description": "Time-Lost Surveyor of the Shifting Wilds",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "3a507034-00c4-4a08-ac1e-206078b2e9fb",
+            "name": "Trouble",
+            "description": "My Maps Lead to Places That No Longer Exist",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "d6db408e-96c3-4014-a8cf-76644819337f",
+            "name": "Investigate",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "a6996040-fab3-453b-8ff5-fc0f69343130",
+            "name": "Notice",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "8191c932-c1ba-4411-aed2-a95169609f4c",
+            "name": "Shoot",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "5581c450-08b4-4bb4-952e-72329fbf6aa4",
+            "name": "Athletics",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": []
+      },
+      "allow_overwrite": true,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "aspect_slots_left": 3,
+      "user_note": null
+    },
+    "output": {
+      "aspects": {
+        "id": null,
+        "name": "The Forest Remembers What I've Forgotten",
+        "description": "I have a deep, almost supernatural connection to the shifting wilds. It can grant me flashes of insight into its nature or my own lost past, but its 'memories' can also be fragmented, dangerous, or misleading."
+      },
+      "stunts": null,
+      "notes": "This aspect creates a mystical link between your character and the strange environment. It provides a narrative reason for insights (invokes for Investigate or Notice checks) and a source of danger when the forest's 'memories' are hostile or confusing (compels)."
+    }
+  },
+  {
+    "input": {
+      "mode": "aspects",
+      "state": {
+        "meta": {
+          "idea": "Diplomat from a fallen moon",
+          "setting": "Crystalline lunar shards crashed into the sea; refugees barter starlight technology for sanctuary.",
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "b1e945e1-e69b-4453-bc36-c98104162157",
+            "name": "High Concept",
+            "description": "Exiled Emissary of the Shattered Moon",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "d7fd1ea7-18ed-4fd5-8267-bfee15fff214",
+            "name": "Trouble",
+            "description": "My People's Survival Rests On My Shoulders",
+            "locked": false,
+            "userEdited": true
+          },
+          {
+            "id": "46f418f7-e310-405d-add4-ec4157aa2d3a",
+            "name": "Reputation Precedes",
+            "description": "Doors open—sometimes to traps.",
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "skills": [
+          {
+            "id": "0306f7ca-5e4d-4e08-859a-07fe73b52eb9",
+            "name": "Rapport",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "a1ba9ea4-0b63-4b63-976e-d28a7a49ebef",
+            "name": "Empathy",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "2686a65f-ec2e-45ee-94fe-35984a5fbc08",
+            "name": "Contacts",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "c32f0ca6-d593-4cf3-8364-2c992f7f8209",
+            "name": "Will",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": []
+      },
+      "allow_overwrite": false,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "aspect_slots_left": 1,
+      "user_note": "Short and punchy."
+    },
+    "output": {
+      "aspects": {
+        "id": null,
+        "name": "Bearer of the Last Lunar Shard",
+        "description": "This fragment of my home is our last hope and my greatest burden."
+      },
+      "stunts": null,
+      "notes": "This aspect introduces a tangible, powerful element from your character's backstory. It can be invoked when using lunar technology, bartering for your people's future, or when its power is needed. It can also be compelled by making it a target for thieves or a source of dangerous, unstable energy."
+    }
+  },
+  {
+    "input": {
+      "mode": "aspects",
+      "state": {
+        "meta": {
+          "idea": "Cyber-monk decoding corrupted prophecies",
+          "setting": "Neon monastery in a megacity; scriptures live in glitching data-ghosts.",
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "2b33c47c-9d2d-4e81-af9a-6d7742ddbf01",
+            "name": "High Concept",
+            "description": "Data-Ghost Scribe of the Neon Monastery",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "d9d9cd4e-9d1e-4c06-872e-f1608f72f9d7",
+            "name": "Trouble",
+            "description": "The Glitch Hears Me Back",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "8984bd7f-5de0-4087-a578-3fcc3b0932a9",
+            "name": "Lore",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "f34851fb-59d5-4ec2-af48-d16c0802322a",
+            "name": "Investigate",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "8105f445-c720-4b66-9f96-a474415baef2",
+            "name": "Will",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "b2496d9d-92df-4958-aec2-076426635e3c",
+            "name": "Notice",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": []
+      },
+      "allow_overwrite": false,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "aspect_slots_left": 2,
+      "user_note": "Double-edged phrasing."
+    },
+    "output": {
+      "aspects": {
+        "id": null,
+        "name": "Wired to the Void",
+        "description": "This deep connection to the data stream allows you to parse information that would drive others mad. However, the Void is not a passive source, and its corrupting influence can be compelled to isolate you or twist your perceptions of reality."
+      },
+      "stunts": null,
+      "notes": "Suggesting an aspect that reflects the character's intimate, and dangerous, relationship with the digital prophecies. It offers a clear benefit for their investigation and a potent source of complications."
+    }
+  },
+  {
+    "input": {
+      "mode": "aspects",
+      "state": {
+        "meta": {
+          "idea": "Beast-speaker hunting corporate poachers",
+          "setting": "Vertical jungle reserve threaded through arcology levels; fauna evolved alongside drones.",
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "b3614b41-8ef4-4357-a5e5-70ad13a1809a",
+            "name": "High Concept",
+            "description": "Guardian Beast-Speaker of the Arcology Jungle",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "d31f3dd4-852b-4f61-88b6-4f724162f405",
+            "name": "Trouble",
+            "description": "The Beasts' Rage Is My Own",
+            "locked": false,
+            "userEdited": true
+          },
+          {
+            "id": "0f74d910-d33f-4bb0-ad98-d1ba199e13ed",
+            "name": "Old Debt",
+            "description": "Owes favors to a shadowy syndicate.",
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "skills": [
+          {
+            "id": "1355b851-58b1-44b4-aa1b-0e02039ee415",
+            "name": "Empathy",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "a0f1140b-d7b1-418d-a08f-a7ed71dd42b9",
+            "name": "Stealth",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "d3f13ef1-320e-4132-b2ed-718e26052c83",
+            "name": "Notice",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "e54a67e8-3239-44a3-8d08-1d625e0502d2",
+            "name": "Athletics",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": []
+      },
+      "allow_overwrite": true,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "aspect_slots_left": 1,
+      "user_note": null
+    },
+    "output": {
+      "aspects": {
+        "id": null,
+        "name": "My Flock of 'Scout-Hawk' Drones",
+        "description": "My custom drones are my eyes and ears in the vertical jungle, but they can be hacked or draw the wrong kind of attention."
+      },
+      "stunts": null,
+      "notes": "This aspect ties your character directly into the unique setting, blending the 'beast-speaker' idea with the high-tech environment. It provides clear opportunities for creating advantages (scouting, distraction) and for compels (drones get damaged, hacked, or draw unwanted attention)."
+    }
+  },
+  {
+    "input": {
+      "mode": "aspects",
+      "state": {
+        "meta": {
+          "idea": "Runesmith courier with explosive secrets",
+          "setting": "Steam-and-sigil railways where packages are oath-bound; couriers duel with contracts.",
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "14479463-8947-4c06-85f4-a82887f82c8c",
+            "name": "High Concept",
+            "description": "Oath-Bound Runesmith Courier",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "24c53677-8499-4038-a604-d38204c49367",
+            "name": "Trouble",
+            "description": "My Last Delivery Went Boom",
+            "locked": false,
+            "userEdited": true
+          },
+          {
+            "id": "94ec7782-035c-4cd7-a754-5f4f77cf2ac7",
+            "name": "Mentor's Lesson",
+            "description": "Never strike first—set the stage.",
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "511a305e-44b5-4d78-922e-9f41da1f3332",
+            "name": "Lucky Charm",
+            "description": "Superstition that sometimes works.",
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "skills": [
+          {
+            "id": "2de88f8f-e975-4416-b176-a28e2fbb5dba",
+            "name": "Crafts",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "74f4e18d-78ac-4515-8e94-a174f5aa3484",
+            "name": "Drive",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "31abc87e-a997-497e-9d81-890705533d69",
+            "name": "Lore",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "e4095aa1-363a-4664-8f4a-1a8da76e3c1a",
+            "name": "Notice",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": []
+      },
+      "allow_overwrite": false,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "aspect_slots_left": 1,
+      "user_note": "Keep them grounded in the setting."
+    },
+    "output": {
+      "aspects": {
+        "id": "511a305e-44b5-4d78-922e-9f41da1f3332",
+        "name": "The Cogwork Cartel Wants Their 'Package' Back",
+        "description": "My last delivery didn't just explode; it was stolen from under my nose. Now a powerful shipping syndicate is hunting me for what they lost, and they don't care about collateral damage."
+      },
+      "stunts": null,
+      "notes": "This aspect provides a specific antagonist connected to your Trouble, 'My Last Delivery Went Boom.' It grounds your character in the world by creating a clear threat and a source of ongoing conflict, perfect for both invokes (when using your knowledge of their operations) and compels (when they show up to complicate your life)."
+    }
+  },
+  {
+    "input": {
+      "mode": "aspects",
+      "state": {
+        "meta": {
+          "idea": "Exorcist chef feeding restless spirits",
+          "setting": "Harbor city where ghost tides roll in nightly; offerings are tickets to the afterlife ferries.",
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "cc6b6229-2535-428e-aec9-11db3c72d5a8",
+            "name": "High Concept",
+            "description": "Ferryman's Chef for the Restless Dead",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "f241681c-9433-483f-a632-c937cf36cb76",
+            "name": "Trouble",
+            "description": "I Feel Their Unfinished Business",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "2c9b420a-313c-4ec1-8b38-83837da9dd36",
+            "name": "Crafts",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "ead35f56-df2e-4ffa-871e-6d459ac3513a",
+            "name": "Lore",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "c2cfe73a-a2d5-4d82-b407-a03943f03ce2",
+            "name": "Empathy",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "5a9bb130-c206-43fc-ad80-507a0c4081bc",
+            "name": "Will",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": []
+      },
+      "allow_overwrite": true,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "aspect_slots_left": 3,
+      "user_note": null
+    },
+    "output": {
+      "aspects": {
+        "id": null,
+        "name": "Phase Aspect",
+        "description": "Never Turn Away a Hungry Soul"
+      },
+      "stunts": null,
+      "notes": "This aspect provides a strong, driving principle for your character. It's a personal code that can be invoked when your compassion helps you connect with and aid a spirit, but it's also a powerful hook for compels, forcing you to help a dangerous, difficult, or inconvenient soul who comes seeking a meal."
+    }
+  },
+  {
+    "input": {
+      "mode": "aspects",
+      "state": {
+        "meta": {
+          "idea": "Golem-rights advocate learning to feel",
+          "setting": "Industrial league debates personhood of constructs; artisan unions sponsor sentience trials.",
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "06da9a60-127f-45f4-aed9-cfdb48659083",
+            "name": "High Concept",
+            "description": "Heartfelt Orator for the Heartless",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "de11d988-4765-4acb-b055-9e3761ce359a",
+            "name": "Trouble",
+            "description": "A Slave to Newly Awakened Emotions",
+            "locked": false,
+            "userEdited": true
+          },
+          {
+            "id": "f6bda913-2e9c-4d40-8869-b09ad83f1041",
+            "name": "Reputation Precedes",
+            "description": "Doors open—sometimes to traps.",
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "skills": [
+          {
+            "id": "54a21ed4-6758-453d-aa40-b078acad3534",
+            "name": "Rapport",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "d8a895a6-d1ad-4c0b-9c44-a2b763f305ca",
+            "name": "Empathy",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "901b37ac-55d7-4405-82cd-67a51259ce93",
+            "name": "Lore",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "3ed99e62-67a6-4658-baef-039855b1dd9c",
+            "name": "Will",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": []
+      },
+      "allow_overwrite": false,
+      "default_skills": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ],
+      "aspect_slots_left": 1,
+      "user_note": "Short and punchy."
+    },
+    "output": {
+      "aspects": {
+        "id": null,
+        "name": "A Soul Forged, Not Born",
+        "description": "My core belief and a rallying cry for my cause."
+      },
+      "stunts": null,
+      "notes": "This aspect provides a clear, powerful ideological statement for your character. It's a 'punchy' summary of their entire motivation, perfect for invoking during passionate speeches (Rapport) or when researching the nature of constructs (Lore). It can also be compelled when confronted with undeniable proof of a construct's 'soulless' nature, challenging your deeply held beliefs."
+    }
+  }
+]

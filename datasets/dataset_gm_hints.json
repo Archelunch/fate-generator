@@ -1,0 +1,2415 @@
+[
+  {
+    "input": {
+      "target_type": "aspect",
+      "target_id": "c03d283a-d923-422e-a13b-727ce1359a55",
+      "state": {
+        "meta": {
+          "idea": "Witty detective with a dark past",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "3ede17a0-d238-4489-acf7-7b3fc8d09d9d",
+            "name": "High Concept",
+            "description": "Quick-Witted Noir Detective",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "c03d283a-d923-422e-a13b-727ce1359a55",
+            "name": "Trouble",
+            "description": "My Past Won't Stay Buried",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [],
+        "stunts": [
+          {
+            "id": "57e1f419-afec-42be-8c6f-8dea4f2aa1a4",
+            "name": "I've Seen It All Before",
+            "description": "Because your past is full of grim cases, you get a +2 to Overcome with Investigate when examining a situation that reminds you of a case you'd rather forget.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "compel",
+          "title": "A Ghost at the Door",
+          "narrative": "You're working late on a new case when there's a knock at your office door. It's the sibling of a victim from an old, botched case, demanding you reopen it and find the 'real' killer. Their sudden appearance threatens to derail your current investigation and drag you back into a world of regret and failure you thought you'd escaped.",
+          "mechanics": "Compel: A character from a past case reappears, creating a significant new complication or obstacle in the current story. Gain a Fate Point."
+        },
+        {
+          "type": "compel",
+          "title": "That Old, Familiar Feeling",
+          "narrative": "A key piece of evidence in your current investigation is eerily similar to one from a traumatic event in your past. Seeing it causes you to freeze up, miss a crucial detail, or react with uncharacteristic anger or fear. This moment of weakness gives an adversary an opportunity to escape or gain the upper hand.",
+          "mechanics": "Compel: Your character's judgment is clouded by past trauma, forcing a sub-optimal decision or creating an opening for an opponent. Gain a Fate Point."
+        },
+        {
+          "type": "player_invoke",
+          "title": "I've Made This Mistake Before",
+          "narrative": "You're about to walk into what looks like a trap, but something about the setup triggers a sense of déjà vu. You remember a similar situation from your past that ended badly. Drawing on that painful memory, you spot the flaw in your adversary's plan that others would miss, allowing you to turn the tables.",
+          "mechanics": "Invoke: Spend a Fate Point to gain a +2 bonus or a reroll when your past experiences give you specific insight into a current danger or challenge."
+        }
+      ],
+      "notes": "Generated two GM-facing compels and one player-facing invoke for the Trouble aspect 'My Past Won't Stay Buried', focusing on how old cases and traumas can either complicate the present or provide hard-won wisdom for a noir detective."
+    }
+  },
+  {
+    "input": {
+      "target_type": "aspect",
+      "target_id": "408b959d-1358-4527-a0cd-bc418a9cdcce",
+      "state": {
+        "meta": {
+          "idea": "Exiled noble turned wandering swordmage",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "02646325-41ec-4db8-be3b-c155bd57f6a9",
+            "name": "High Concept",
+            "description": "Exiled Scion of a Magical Bloodline",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "408b959d-1358-4527-a0cd-bc418a9cdcce",
+            "name": "Trouble",
+            "description": "My Family's Enemies Are Now Mine",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "d260c07d-a589-475b-91f7-442146b94807",
+            "name": "Fight",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "ac469c9b-b73f-4447-aee6-ac4b7deac86c",
+            "name": "Lore",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "5b2805eb-7b8c-4a75-bedc-1d88a0872b4b",
+            "name": "Will",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "d0048088-2fa5-41d4-890c-a147e49879d7",
+            "name": "Athletics",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": [
+          {
+            "id": "0dfbeb47-1b63-46f4-9a0b-719a84dbd7c6",
+            "name": "Arcane Flourish",
+            "description": "When you use Fight to Create an Advantage by weaving a minor cantrip into your swordplay, creating aspects like **Dazzling Feint** or **Entangling Shadows**, you gain an additional free invoke if you succeed with style.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "compel",
+          "title": "Unwanted Recognition",
+          "narrative": "You're trying to keep a low profile in a new city, but someone recognizes your family's signet ring or the particular style of your swordplay. This person is an agent for one of your family's rivals and immediately moves to expose you, turning the local authorities or a powerful guild against you.",
+          "mechanics": "Compel: Your current mission is complicated by the arrival of hostile forces who know who you are. Gain a Fate Point."
+        },
+        {
+          "type": "compel",
+          "title": "A Rival's Machinations",
+          "narrative": "You discover that a problem you're facing—a corrupt official, a marauding beast, a sudden resource shortage—wasn't random at all. It was engineered by one of your family's enemies specifically to harm you or the people you've allied with, forcing you to deal with the fallout of their long-running feud.",
+          "mechanics": "Compel: A situation becomes significantly more dangerous or complex because a family enemy is pulling the strings. Gain a Fate Point."
+        },
+        {
+          "type": "player_invoke",
+          "title": "Know Thy Enemy",
+          "narrative": "You're in a conflict with agents from a rival house that has opposed your family for generations. You know their tactics, their training, and their typical strategies inside and out. This intimate knowledge gives you a crucial edge in predicting their moves.",
+          "mechanics": "Invoke: Spend a Fate Point to gain a +2 or a reroll on a Fight or Lore check when directly opposing a known family enemy."
+        }
+      ],
+      "notes": "Generated two GM-facing compels and one player-facing invoke for the Trouble aspect, focusing on the external pressures and internal knowledge that come from having inherited enemies."
+    }
+  },
+  {
+    "input": {
+      "target_type": "aspect",
+      "target_id": "122ec2a5-ca32-4336-a0a8-56ad857d750d",
+      "state": {
+        "meta": {
+          "idea": "Cynical medic who can hear ghosts",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "a831e812-8b92-4754-8400-b1018ef87a4c",
+            "name": "High Concept",
+            "description": "Pragmatic Medic Plagued by Spirits",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "122ec2a5-ca32-4336-a0a8-56ad857d750d",
+            "name": "Trouble",
+            "description": "The Whispers Never Stop",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "7c52f969-9cb8-418c-a2fe-aceb1dc873a8",
+            "name": "Will",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "b0197ff7-d443-4cef-aadd-666f7717d198",
+            "name": "Lore",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "e3d83da0-24ba-4dbb-a2ee-0bdfe84679c6",
+            "name": "Notice",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "5b5ccc42-fc1b-476f-95df-a6decac35f15",
+            "name": "Empathy",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": [
+          {
+            "id": "c256854d-76ec-4d2d-826b-a3c4fd06aace",
+            "name": "Acrobat's Flourish",
+            "description": "+2 to Overcome with Athletics when flipping across obstacles.",
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "ef3d912c-d69f-46c4-a64b-73950f437987",
+            "name": "Psychic Scalpel",
+            "description": "Because of my precise medical training and constant exposure to the supernatural, I get a +2 to Will when I make mental attacks against ghosts or other spiritual entities.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "compel",
+          "title": "Overwhelming Cacophony",
+          "narrative": "You're trying to perform a delicate task, like surgery or deciphering an ancient text, that requires your full concentration. At that exact moment, the whispers of the dead surge into a deafening roar, screaming their final moments or demanding your attention, making it impossible to focus on the intricate work before you.",
+          "mechanics": "The GM can compel this aspect to make you fail a crucial skill roll (like Lore or another precision-based skill), or to create a distracting situation aspect like 'Sensory Overload'."
+        },
+        {
+          "type": "compel",
+          "title": "Misleading Voices",
+          "narrative": "A spirit whispers what seems like a vital clue or a safe path forward, promising a shortcut or a secret. Trusting this spectral source, you act on the information, only to discover it was a lie, a misremembered detail, or a trap set by a malicious entity. The whispers aren't always your friends.",
+          "mechanics": "The GM can compel this aspect to have you act on false information, leading you or your group into an ambush, a social blunder, or a more complicated problem."
+        },
+        {
+          "type": "player_invoke",
+          "title": "A Clue in the Chaos",
+          "narrative": "Faced with a mystery, particularly one involving a recent death, you tune into the constant stream of voices. By focusing your will, you can sift through the noise to find the specific spirit you need, catching a faint but crucial detail from their residual consciousness—how they died, what they saw, or where something is hidden.",
+          "mechanics": "You can invoke this aspect for a +2 or a reroll on a Notice or Lore roll when seeking information directly related to a ghost or a place of death."
+        }
+      ],
+      "notes": "As a Trouble aspect, 'The Whispers Never Stop' is a rich source for both the GM and the player. GMs should focus compels on moments of high tension where a distraction or bad information would be most dramatic. The player should look for opportunities to invoke it when their unique connection to the dead provides an advantage no one else could have, turning their curse into a momentary gift."
+    }
+  },
+  {
+    "input": {
+      "target_type": "aspect",
+      "target_id": "d25e894c-38e8-44e8-81d6-d64a34738048",
+      "state": {
+        "meta": {
+          "idea": "Optimistic archaeologist chasing forbidden myths",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "caf3acc9-ce03-4441-b921-1dd545e62d12",
+            "name": "High Concept",
+            "description": "Plucky Archaeologist Seeking Forbidden Truths",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "d25e894c-38e8-44e8-81d6-d64a34738048",
+            "name": "Trouble",
+            "description": "A Magnet for Mythological Misfortune",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [],
+        "stunts": [
+          {
+            "id": "2b5e58eb-0696-4df9-a886-36387bd67931",
+            "name": "Silver Tongue",
+            "description": "+2 to Create Advantage with Rapport when sowing doubt.",
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "30319acb-40ef-4f7e-8c17-46ba522c3345",
+            "name": "Foretold in the Hieroglyphs",
+            "description": "Once per scene, you can use your Lore skill to Defend against a supernatural threat or an ancient trap.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "compel",
+          "title": "The Wrong Kind of Attention",
+          "narrative": "While you're exploring a supposedly dormant ruin, your presence acts like a beacon. An ancient guardian, a territorial spirit, or a long-slumbering curse awakens specifically because you are there, ignoring others to focus its ire on you.",
+          "mechanics": "Offer a compel: The tomb's guardian has awakened and is now fixated on you, creating a major obstacle while your friends try to secure the artifact."
+        },
+        {
+          "type": "compel",
+          "title": "It's a Trap, For You",
+          "narrative": "You've just acquired a map or artifact that seems to be the key to your quest. Unfortunately, it's also bait, a cursed item, or a tracker that leads a monstrous entity or rival organization right to your doorstep, complicating your life at the worst possible moment.",
+          "mechanics": "Offer a compel: The relic you just touched was cursed, and now you're being actively hunted by its spectral guardians, who will appear in the next scene."
+        },
+        {
+          "type": "player_invoke",
+          "title": "Predictable Calamity",
+          "narrative": "You've been through this before. When the floor starts crumbling or the ancient statues start moving, your constant exposure to mythological disasters gives you a unique insight. You have a gut feeling about what's about to happen, letting you react a split-second faster than anyone else.",
+          "mechanics": "Invoke to gain a bonus when defending against a supernatural trap or to create an advantage like 'I Know This Pattern' by anticipating the danger."
+        }
+      ],
+      "notes": "This is your Trouble aspect. The GM will compel this to introduce complications into the story in exchange for a Fate Point. You can also invoke it to get out of trouble, often by showing how your experience with misfortune has made you resilient."
+    }
+  },
+  {
+    "input": {
+      "target_type": "aspect",
+      "target_id": "5de6f710-720e-455a-a03a-ce9b525ead28",
+      "state": {
+        "meta": {
+          "idea": "Retired monster hunter pulled back in",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "283470d2-9814-4e5c-9454-3a58f5c6b531",
+            "name": "High Concept",
+            "description": "Reluctant Slayer of Nightmares",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "5de6f710-720e-455a-a03a-ce9b525ead28",
+            "name": "Trouble",
+            "description": "The Monsters Haven't Forgotten Me",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "d617a797-c47b-4669-bb64-fbeb970f4654",
+            "name": "Investigate",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "6a1ea357-ca09-4738-89bf-ace4317f1ef3",
+            "name": "Fight",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "f32a9b6a-bb9b-4a1e-b1d3-e110e47d7128",
+            "name": "Lore",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "3ca8ef71-b70a-4ef9-b84f-1312d14f18ec",
+            "name": "Notice",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": [
+          {
+            "id": "d3c5b80d-d942-4ef0-b69e-c0b2eb065d3b",
+            "name": "Monstrous Logic",
+            "description": "You've spent a lifetime hunting things that don't follow human rules. You gain a +2 bonus when you use Investigate to Overcome an obstacle that is a trap, puzzle, or non-physical barrier created by a supernatural entity.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "compel",
+          "title": "An Unwelcome Reunion",
+          "narrative": "You're in the middle of a delicate social situation or covertly investigating a lead when a monster from your past shows up. It's not here for a quiet chat; it's here for revenge, immediately turning a quiet scene into a chaotic and public fight, jeopardizing your goals.",
+          "mechanics": "The GM offers a Fate Point to introduce a monstrous enemy from your past at the most inconvenient moment, creating a new, immediate conflict."
+        },
+        {
+          "type": "compel",
+          "title": "They Were Expecting You",
+          "narrative": "The supposedly simple monster hunt you're on turns out to be an elaborate trap. The creatures here know your name, your methods, and have prepared accordingly, turning your advantages against you. Your reputation has made you a priority target.",
+          "mechanics": "The GM offers a Fate Point to reveal the current threat is not only aware of you but has prepared specific countermeasures against you, adding a complication."
+        },
+        {
+          "type": "player_invoke",
+          "title": "A Fearsome Reputation",
+          "narrative": "When facing a group of lesser supernatural beings, you realize they are hesitating, whispering your old moniker, 'The Butcher of Blackwood'. You can press this advantage, using their fear of your past deeds to make them falter, giving you the upper hand in a fight or interrogation.",
+          "mechanics": "Spend a Fate Point for a +2 or reroll when intimidating or fighting supernatural creatures who would have reason to know and fear your reputation."
+        }
+      ],
+      "notes": "This Trouble aspect focuses on the consequences of the character's past life. Compels should introduce complications from old enemies or their widespread reputation. Player invokes can use that same reputation as a weapon to intimidate or gain a psychological edge."
+    }
+  },
+  {
+    "input": {
+      "target_type": "aspect",
+      "target_id": "b96318e0-82d9-40bd-bd97-c7220969855b",
+      "state": {
+        "meta": {
+          "idea": "Runaway alchemist seeking a cure",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "8f3ed023-a62b-434a-901e-f4910f81a14c",
+            "name": "High Concept",
+            "description": "Fugitive Alchemist on a Desperate Quest",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "b96318e0-82d9-40bd-bd97-c7220969855b",
+            "name": "Trouble",
+            "description": "My Magnum Opus Is My Curse",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [],
+        "stunts": [
+          {
+            "id": "951a3d1c-0f96-4f89-8639-d38c1242d72d",
+            "name": "Alchemical Analysis",
+            "description": "Because of your deep understanding of chemical and mystical properties, you can use Lore instead of Investigate to Overcome obstacles when analyzing strange substances, magical traps, or complex ailments.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "compel",
+          "title": "Unwanted Attention",
+          "narrative": "The unstable energy from your magnum opus acts like a beacon for those sensitive to magic or hungry for power. As you try to lay low in a new city, a powerful member of the local Alchemist's Guild or a magically-attuned bounty hunter senses your unique arcane signature. They decide you're either a threat to be neutralized or a resource to be captured and exploited.",
+          "mechanics": "The GM compels this aspect to introduce a new, informed antagonist who is actively hunting you because of your curse. You receive a Fate Point."
+        },
+        {
+          "type": "compel",
+          "title": "A Volatile Outburst",
+          "narrative": "Stress or the presence of strong magic can cause your curse to flare up uncontrollably. At the worst possible moment—perhaps while negotiating with a delicate contact or sneaking past guards—your skin might glow, you could emit a corrosive vapor, or strange magical phenomena could manifest around you. This sudden outburst immediately ruins your subtle approach and complicates the situation dramatically.",
+          "mechanics": "The GM compels this aspect to cause an automatic failure on a stealthy or social action due to a sudden, flashy manifestation of your curse. You receive a Fate Point."
+        },
+        {
+          "type": "player_invoke",
+          "title": "Harness the Aberration",
+          "narrative": "Your curse is a font of raw, chaotic power that you can, with great effort, direct. When cornered or in desperate need of a distraction, you can intentionally unleash a small measure of its power. This could be a burst of corrosive energy to melt a lock, a disorienting flash of light to blind an opponent, or an unnerving physical change to intimidate a foe.",
+          "mechanics": "Spend a Fate Point to get a +2 or reroll on an Overcome or Create an Advantage roll by using a destructive side-effect of your curse."
+        }
+      ],
+      "notes": "Generated two GM-facing compels and one player-facing invoke for the Trouble aspect. The hints focus on the dual nature of a 'cursed masterpiece': it's a source of dangerous complications (attracting enemies, flaring up at bad times) but also a potential font of destructive power the player can tap into."
+    }
+  },
+  {
+    "input": {
+      "target_type": "aspect",
+      "target_id": "a8dc59e2-5ac7-4b5e-8b5d-a76893865f54",
+      "state": {
+        "meta": {
+          "idea": "Clockwork tinkerer with a human heart",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "16d2c6fb-fd7f-4f3b-84be-5c75029e13c6",
+            "name": "High Concept",
+            "description": "Clockwork Automaton with a Human Heart",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "a8dc59e2-5ac7-4b5e-8b5d-a76893865f54",
+            "name": "Trouble",
+            "description": "My Emotions Overload My Circuits",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "f0580538-8e7c-497e-be13-ebd9f9d39be5",
+            "name": "Crafts",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "791faf3b-d7f8-4487-8ee1-52cb8dfcd449",
+            "name": "Empathy",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "c2568245-dfdf-4635-ae17-c285d229f00e",
+            "name": "Lore",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "4dc521eb-4a30-4ad5-9770-b449b0ea02d6",
+            "name": "Notice",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": [
+          {
+            "id": "f7705ec9-09ae-457d-aaee-d64e243f5953",
+            "name": "Clockwork Cascade",
+            "description": "Once per scene, when you use Crafts to create an advantage by jury-rigging a complex contraption from nearby parts, you can declare you're setting up a cascade. If you succeed, the situation aspect you create is particularly complex and difficult to undo, imposing a +2 opposition against any Overcome rolls to remove it.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "compel",
+          "title": "Emotional Short-Circuit",
+          "narrative": "During a tense confrontation or a deeply moving moment, your logic-gates can't handle the influx of emotion. Your clockwork body might seize up, emit sparks, or begin speaking in binary, creating a major social complication or leaving you vulnerable for a moment.",
+          "mechanics": "Compel: At a critical social or emotional juncture, you visibly malfunction, creating a complication. Gain a Fate Point."
+        },
+        {
+          "type": "compel",
+          "title": "Unfiltered Empathy",
+          "narrative": "When you try to read someone with Empathy, you sometimes connect too deeply. Their raw feelings can flood your system, causing you to blurt out their secrets, react with inappropriate emotional intensity, or become overwhelmed and unable to act.",
+          "mechanics": "Compel: Your Empathy creates a feedback loop, forcing you to act on an overwhelming, borrowed emotion. Gain a Fate Point."
+        },
+        {
+          "type": "player_invoke",
+          "title": "Harness the Surge",
+          "narrative": "While usually a problem, a powerful emotional surge can sometimes provide a breakthrough. You can channel that raw feeling into a project, giving you a desperate flash of insight to solve a complex mechanical problem or understand a person's motivations on a gut level.",
+          "mechanics": "Invoke: Spend a Fate Point for a +2 to an Empathy or Crafts roll when the outcome is driven by a powerful personal feeling."
+        }
+      ],
+      "notes": "As a Trouble, this aspect is a primary source of Fate Points through compels. The GM can use it to create social or technical complications when emotions run high. As the player, you can invoke it when a surge of feeling, rather than cold logic, would be beneficial to your actions, especially with your high Empathy and Crafts skills."
+    }
+  },
+  {
+    "input": {
+      "target_type": "aspect",
+      "target_id": "9edec1a8-4c40-4ea4-8b76-2af2548c8ada",
+      "state": {
+        "meta": {
+          "idea": "Gentle giant sworn to nonviolence",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "491f860c-2f12-433e-8317-1805f373df06",
+            "name": "High Concept",
+            "description": "A Mountain of a Man with a Heart of a Dove",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "9edec1a8-4c40-4ea4-8b76-2af2548c8ada",
+            "name": "Trouble",
+            "description": "The Scars of My Violent Past",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "e46e0b76-995e-4b8e-a662-d3a682520bec",
+            "name": "Physique",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "fefde442-e4f8-4a64-8409-80c846ec5668",
+            "name": "Will",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "e72bc353-4838-4753-8357-bf71105acf43",
+            "name": "Empathy",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "a91f5f9b-a3cb-4a97-89cf-876187a385cb",
+            "name": "Rapport",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": [
+          {
+            "id": "164fb61e-35e1-4a5e-aacf-41e1c3b362c2",
+            "name": "Acrobat's Flourish",
+            "description": "+2 to Overcome with Athletics when flipping across obstacles.",
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "0145e5d1-3944-45b8-abac-3ffa56686a15",
+            "name": "A Bear's Embrace",
+            "description": "Because I am a **Mountain of a Man** sworn to nonviolence, I gain a +2 when I use Physique to make an attack intended to non-lethally restrain or grapple an opponent.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "compel",
+          "title": "A Face From the Past",
+          "narrative": "Someone you wronged or fought alongside during your violent days appears, seeking either revenge or to recruit you for one last job. Their presence immediately complicates the situation, forcing you to confront the person you used to be and potentially making peaceful solutions impossible.",
+          "mechanics": "The GM offers a Fate Point to introduce an NPC from your past at an inopportune moment, escalating the current conflict."
+        },
+        {
+          "type": "compel",
+          "title": "Unwanted Reputation",
+          "narrative": "You're trying to use Empathy or Rapport to calm a tense situation, but someone recognizes you from a wanted poster or by the description of your old deeds. Fear and mistrust spread through the crowd, and your attempts at peaceful negotiation are immediately undermined by your bloody history.",
+          "mechanics": "The GM offers a Fate Point to make a social situation much more difficult because your violent reputation precedes you."
+        },
+        {
+          "type": "player_invoke",
+          "title": "Anatomy of a Fight",
+          "narrative": "Though you've sworn off violence, you know exactly how it works. When observing a tense standoff or a brewing brawl, you can precisely predict who will strike first, where the weaknesses are, and how to best de-escalate or disable the combatants without serious harm.",
+          "mechanics": "Pay a Fate Point to use your knowledge of violence to Create an Advantage like 'Predicted Trajectory' or 'He's All Bluster'."
+        }
+      ],
+      "notes": "For the Trouble aspect, I've created two GM-facing compel hints that bring the character's violent past into the present to complicate their life. I also added one player-facing invoke that allows the character to use the knowledge from that past in a non-violent, constructive way."
+    }
+  },
+  {
+    "input": {
+      "target_type": "aspect",
+      "target_id": "260faffb-e53b-44ce-ac74-1d712079fa9b",
+      "state": {
+        "meta": {
+          "idea": "Silver-tongued thief with a code",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "f766d97a-4f04-4227-a906-2b4da11d9f6e",
+            "name": "High Concept",
+            "description": "Gentleman Thief with an Unbreakable Code",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "260faffb-e53b-44ce-ac74-1d712079fa9b",
+            "name": "Trouble",
+            "description": "Can't Turn Down a Worthy Challenge",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [],
+        "stunts": [
+          {
+            "id": "b1d1c46d-3d42-441f-875c-b52c08745b5f",
+            "name": "Silver Tongue",
+            "description": "+2 to Create Advantage with Rapport when sowing doubt.",
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "50acb601-c07a-49b3-8f23-334b9efbb076",
+            "name": "Unshakeable Composure",
+            "description": "Once per scene, gain +2 to your Will roll when defending against a Provoke attack.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "compel",
+          "title": "The Gauntlet is Thrown",
+          "narrative": "A rival or authority figure publicly dismisses your skills, declaring a particular target 'uncrackable' or a prize 'unstealable.' They know your reputation and are baiting you. Your pride and the nature of the challenge itself make it impossible to ignore, even if you suspect it's a trap.",
+          "mechanics": "Offer a compel: You must accept the challenge, diverting your plans to pursue this new, dangerous objective. Gain a Fate Point."
+        },
+        {
+          "type": "compel",
+          "title": "The More Complicated Path",
+          "narrative": "During a job, you discover a simple, brutish way to bypass a security measure, but also a far more elegant and complex one. Instead of taking the easy route, you're drawn to the intricate puzzle, wanting to prove you can solve it. This wastes precious time or uses up key resources, alerting guards or jeopardizing the mission.",
+          "mechanics": "Offer a compel: You must attempt the more difficult solution, complicating the situation. Gain a Fate Point."
+        },
+        {
+          "type": "player_invoke",
+          "title": "Fueled by the Impossible",
+          "narrative": "You're cornered, the odds are stacked against you, and failure seems imminent. For anyone else, this would be a time to surrender. For you, the sheer difficulty of the situation is the ultimate challenge, sharpening your senses and steadying your nerve.",
+          "mechanics": "Spend a Fate Point to invoke: Gain a +2 bonus to an Overcome roll as you rise to meet the seemingly impossible odds."
+        }
+      ],
+      "notes": "Generated 2 GM compel hints and 1 player invoke hint for the Trouble aspect."
+    }
+  },
+  {
+    "input": {
+      "target_type": "aspect",
+      "target_id": "04be28d3-1c55-4845-8c18-566d0cf3ee5f",
+      "state": {
+        "meta": {
+          "idea": "Haunted bard who remembers future songs",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "7914f1a7-2d79-4361-acbf-4f6873d86555",
+            "name": "High Concept",
+            "description": "Prescient Minstrel Haunted by Unsung Melodies",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "04be28d3-1c55-4845-8c18-566d0cf3ee5f",
+            "name": "Trouble",
+            "description": "These Aren't My Songs",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "7b4727bf-fb11-45b9-b8e6-fa4beab23ad0",
+            "name": "Rapport",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "04932a6e-be70-497a-9e77-72a65a3e24d8",
+            "name": "Empathy",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "0dae191f-6c02-4abe-b919-c94abf82c479",
+            "name": "Lore",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "6d2e2023-f128-4ad2-8320-647465907252",
+            "name": "Will",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": [
+          {
+            "id": "c914f459-d4d5-4d76-bba2-eaee029ac2a6",
+            "name": "Hymn of the Oncoming Storm",
+            "description": "The future songs are a cacophony of fear, sorrow, and dread, but you've learned to use that. Once per session, when you must make an Overcome roll to resist mental or emotional influence, you may use Rapport instead of Will. You are not calming yourself, but rather overwhelming the external influence with a glimpse of all the sorrows yet to come.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "compel",
+          "title": "Wrong Song, Wrong Crowd",
+          "narrative": "You're asked to perform an uplifting ballad for a noble's feast, but the only melody that comes to you is a sorrowful dirge prophesying the fall of their house. Playing it would be a catastrophic insult, but the song demands to be sung. Do you risk the wrath of the powerful, or do you fight the otherworldly muse and suffer the consequences?",
+          "mechanics": "Compel to create a major social complication by performing an inappropriate and prophetic song, or accept a consequence to resist the urge."
+        },
+        {
+          "type": "compel",
+          "title": "A Secret Best Unsung",
+          "narrative": "A haunting new melody reveals a terrible secret about a seemingly benevolent leader or a trusted ally. Now that you know their dark truth, you become a threat. They will surely notice your change in demeanor, and you may not be able to stop yourself from humming the damning tune at the worst possible moment.",
+          "mechanics": "Compel to place you in immediate danger from a powerful figure whose secrets your music has revealed."
+        },
+        {
+          "type": "player_invoke",
+          "title": "An Echo of Understanding",
+          "narrative": "You're trying to win the trust of a suspicious and closed-off individual, and your normal charms are failing. You realize one of the sad songs haunting you perfectly captures a hidden tragedy from their past. By performing this piece, you can show an impossible depth of empathy, forging a powerful and uncanny bond.",
+          "mechanics": "Spend a Fate Point for a +2 to a Rapport or Empathy roll by revealing your shared emotional landscape through a borrowed song."
+        }
+      ],
+      "notes": "This Trouble focuses on the lack of control and the dangerous, prophetic nature of the character's music. Compels should introduce social or political complications when the wrong song appears at the wrong time. Player invokes can lean into the strange origin of the songs to create unexpected connections."
+    }
+  },
+  {
+    "input": {
+      "target_type": "aspect",
+      "target_id": "3ede17a0-d238-4489-acf7-7b3fc8d09d9d",
+      "state": {
+        "meta": {
+          "idea": "Witty detective with a dark past",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "3ede17a0-d238-4489-acf7-7b3fc8d09d9d",
+            "name": "High Concept",
+            "description": "Quick-Witted Noir Detective",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "c03d283a-d923-422e-a13b-727ce1359a55",
+            "name": "Trouble",
+            "description": "My Past Won't Stay Buried",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [],
+        "stunts": [
+          {
+            "id": "57e1f419-afec-42be-8c6f-8dea4f2aa1a4",
+            "name": "I've Seen It All Before",
+            "description": "Because your past is full of grim cases, you get a +2 to Overcome with Investigate when examining a situation that reminds you of a case you'd rather forget.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "invoke",
+          "title": "Cutting Words",
+          "narrative": "You're questioning a suspect who thinks they're smarter than you, giving you the runaround with clever evasions. Your wit is your weapon; a perfectly timed, cynical observation can cut through their defenses and force a mistake.",
+          "mechanics": "Spend a Fate Point to invoke **Quick-Witted Noir Detective** for a +2 to a Rapport or Deceive roll to pressure someone into revealing information."
+        },
+        {
+          "type": "create_advantage",
+          "title": "The Scene Tells a Story",
+          "narrative": "When you walk into a room, you see more than just the furniture. Your detective's mind immediately picks out the inconsistencies—the half-smoked cigarette from an expensive brand, the faint scent of perfume, the subtle scuff marks on the floor.",
+          "mechanics": "Invoke **Quick-Witted Noir Detective** when using Investigate to Create an Advantage, discovering a clue and creating a situation aspect like *The Killer Was In a Hurry*."
+        }
+      ],
+      "notes": "This High Concept is your core identity. Invoke it whenever your sharp mind, cynical perspective, or investigative talents are central to the action. It can also be compelled to draw you into cases you'd rather avoid, simply because you're the only one smart enough to solve them."
+    }
+  },
+  {
+    "input": {
+      "target_type": "aspect",
+      "target_id": "02646325-41ec-4db8-be3b-c155bd57f6a9",
+      "state": {
+        "meta": {
+          "idea": "Exiled noble turned wandering swordmage",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "02646325-41ec-4db8-be3b-c155bd57f6a9",
+            "name": "High Concept",
+            "description": "Exiled Scion of a Magical Bloodline",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "408b959d-1358-4527-a0cd-bc418a9cdcce",
+            "name": "Trouble",
+            "description": "My Family's Enemies Are Now Mine",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "d260c07d-a589-475b-91f7-442146b94807",
+            "name": "Fight",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "ac469c9b-b73f-4447-aee6-ac4b7deac86c",
+            "name": "Lore",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "5b2805eb-7b8c-4a75-bedc-1d88a0872b4b",
+            "name": "Will",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "d0048088-2fa5-41d4-890c-a147e49879d7",
+            "name": "Athletics",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": [
+          {
+            "id": "0dfbeb47-1b63-46f4-9a0b-719a84dbd7c6",
+            "name": "Arcane Flourish",
+            "description": "When you use Fight to Create an Advantage by weaving a minor cantrip into your swordplay, creating aspects like **Dazzling Feint** or **Entangling Shadows**, you gain an additional free invoke if you succeed with style.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "invoke",
+          "title": "Innate Magical Knowledge",
+          "narrative": "You encounter an ancient arcane rune or a piece of forgotten history that baffles others. Your magical bloodline, however, gives you an instinctive understanding, a flicker of ancestral memory that provides a crucial clue.",
+          "mechanics": "Invoke \"Exiled Scion of a Magical Bloodline\" to gain a +2 bonus on a Lore roll to decipher magical secrets."
+        },
+        {
+          "type": "compel",
+          "title": "Recognized Nobility",
+          "narrative": "While trying to remain incognito, your noble bearing and refined mannerisms give you away. Someone might recognize your family's crest, demand a duel for a past slight, or try to use your status against you.",
+          "mechanics": "Accept a compel on \"Exiled Scion of a Magical Bloodline\" to be recognized at an inopportune moment, earning a Fate Point."
+        }
+      ],
+      "notes": "Generated two hints for the High Concept aspect. The invoke focuses on the 'Magical Bloodline' and its connection to the Lore skill. The compel focuses on the social complications of being an 'Exiled Scion'."
+    }
+  },
+  {
+    "input": {
+      "target_type": "aspect",
+      "target_id": "a831e812-8b92-4754-8400-b1018ef87a4c",
+      "state": {
+        "meta": {
+          "idea": "Cynical medic who can hear ghosts",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "a831e812-8b92-4754-8400-b1018ef87a4c",
+            "name": "High Concept",
+            "description": "Pragmatic Medic Plagued by Spirits",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "122ec2a5-ca32-4336-a0a8-56ad857d750d",
+            "name": "Trouble",
+            "description": "The Whispers Never Stop",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "7c52f969-9cb8-418c-a2fe-aceb1dc873a8",
+            "name": "Will",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "b0197ff7-d443-4cef-aadd-666f7717d198",
+            "name": "Lore",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "e3d83da0-24ba-4dbb-a2ee-0bdfe84679c6",
+            "name": "Notice",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "5b5ccc42-fc1b-476f-95df-a6decac35f15",
+            "name": "Empathy",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": [
+          {
+            "id": "c256854d-76ec-4d2d-826b-a3c4fd06aace",
+            "name": "Acrobat's Flourish",
+            "description": "+2 to Overcome with Athletics when flipping across obstacles.",
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "ef3d912c-d69f-46c4-a64b-73950f437987",
+            "name": "Psychic Scalpel",
+            "description": "Because of my precise medical training and constant exposure to the supernatural, I get a +2 to Will when I make mental attacks against ghosts or other spiritual entities.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "invoke",
+          "title": "Clinical Detachment",
+          "narrative": "When confronted with a bizarre, seemingly supernatural ailment affecting someone, your medical training cuts through the panic. You can calmly assess the physical symptoms, separating them from the spiritual mumbo-jumbo to figure out what's really going on, giving you a crucial edge in diagnosis.",
+          "mechanics": "Invoke for a +2 to a Lore roll when diagnosing a supernatural affliction by analyzing its physical effects."
+        },
+        {
+          "type": "compel",
+          "title": "A Cacophony of Souls",
+          "narrative": "You're trying to concentrate on a delicate task, like listening for a guard's footsteps or trying to read a person's intentions. Just then, the spirits of the place cry out to you about a past tragedy or an unseen presence, overwhelming your senses at the worst possible time.",
+          "mechanics": "Accept a compel to become distracted by the spirits, causing a complication or revealing your position when you need to be subtle."
+        }
+      ],
+      "notes": "Generated one invoke and one compel hint for the High Concept aspect. The invoke focuses on the 'Pragmatic Medic' half, while the compel leverages the 'Plagued by Spirits' half to create interesting complications."
+    }
+  },
+  {
+    "input": {
+      "target_type": "aspect",
+      "target_id": "caf3acc9-ce03-4441-b921-1dd545e62d12",
+      "state": {
+        "meta": {
+          "idea": "Optimistic archaeologist chasing forbidden myths",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "caf3acc9-ce03-4441-b921-1dd545e62d12",
+            "name": "High Concept",
+            "description": "Plucky Archaeologist Seeking Forbidden Truths",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "d25e894c-38e8-44e8-81d6-d64a34738048",
+            "name": "Trouble",
+            "description": "A Magnet for Mythological Misfortune",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [],
+        "stunts": [
+          {
+            "id": "2b5e58eb-0696-4df9-a886-36387bd67931",
+            "name": "Silver Tongue",
+            "description": "+2 to Create Advantage with Rapport when sowing doubt.",
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "30319acb-40ef-4f7e-8c17-46ba522c3345",
+            "name": "Foretold in the Hieroglyphs",
+            "description": "Once per scene, you can use your Lore skill to Defend against a supernatural threat or an ancient trap.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "invoke",
+          "title": "I've Studied These Ruins!",
+          "narrative": "The party is facing a complex series of symbols they can't decipher in a dusty tomb. As a Plucky Archaeologist, you've spent countless hours studying just this sort of ancient civilization, and you spot a key detail that unlocks their meaning.",
+          "mechanics": "Invoke to gain a +2 or a reroll on a Lore or Investigate roll to understand an ancient location or artifact."
+        },
+        {
+          "type": "compel",
+          "title": "Just One More Clue...",
+          "narrative": "The team has what they came for and is ready to leave the collapsing temple. However, you notice a side passage that almost certainly leads to the *real* secret, the one the history books are afraid to mention. You can't just leave it unexplored, even if it means delaying your escape and alerting whatever still lurks here.",
+          "mechanics": "Accept a compel to pursue a dangerous lead or delay the group, earning a Fate Point when your choice complicates the situation."
+        }
+      ],
+      "notes": "This high concept is great because 'Plucky Archaeologist' provides a clear basis for invoking your skills, while 'Seeking Forbidden Truths' is a powerful driver for compels that move the story forward into interesting trouble."
+    }
+  },
+  {
+    "input": {
+      "target_type": "aspect",
+      "target_id": "283470d2-9814-4e5c-9454-3a58f5c6b531",
+      "state": {
+        "meta": {
+          "idea": "Retired monster hunter pulled back in",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "283470d2-9814-4e5c-9454-3a58f5c6b531",
+            "name": "High Concept",
+            "description": "Reluctant Slayer of Nightmares",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "5de6f710-720e-455a-a03a-ce9b525ead28",
+            "name": "Trouble",
+            "description": "The Monsters Haven't Forgotten Me",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "d617a797-c47b-4669-bb64-fbeb970f4654",
+            "name": "Investigate",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "6a1ea357-ca09-4738-89bf-ace4317f1ef3",
+            "name": "Fight",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "f32a9b6a-bb9b-4a1e-b1d3-e110e47d7128",
+            "name": "Lore",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "3ca8ef71-b70a-4ef9-b84f-1312d14f18ec",
+            "name": "Notice",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": [
+          {
+            "id": "d3c5b80d-d942-4ef0-b69e-c0b2eb065d3b",
+            "name": "Monstrous Logic",
+            "description": "You've spent a lifetime hunting things that don't follow human rules. You gain a +2 bonus when you use Investigate to Overcome an obstacle that is a trap, puzzle, or non-physical barrier created by a supernatural entity.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "invoke",
+          "title": "Slayer's Instincts",
+          "narrative": "When facing a creature that has sent others fleeing in terror, you see through the fear to the monster beneath. You've hunted things like this before, and you recognize its attack patterns and movements. This grim familiarity allows you to anticipate its next move and strike with precision.",
+          "mechanics": "Invoke to gain a +2 or a reroll on a Fight roll when attacking or defending against a supernatural creature."
+        },
+        {
+          "type": "create_advantage",
+          "title": "Nightmare Logic",
+          "narrative": "This crime scene is bizarre and nonsensical to the local police, but to a Slayer of Nightmares, it's a story. You can read the signs—the strange residue, the pattern of destruction—and understand the unnatural motivations of the creature responsible. This insight lets you predict where it might have gone or what its goal is.",
+          "mechanics": "Use Investigate to Create an Advantage like 'Knows the Creature's Next Move' by interpreting supernatural clues."
+        }
+      ],
+      "notes": "This High Concept establishes your core identity. Invoke the 'Slayer of Nightmares' part to demonstrate your expertise in hunting and fighting monsters, often using your Fight, Investigate, or Lore skills. Accept compels on the 'Reluctant' part when your desire for a quiet life causes you to hesitate or refuse to get involved, pulling you into the story against your will."
+    }
+  },
+  {
+    "input": {
+      "target_type": "aspect",
+      "target_id": "8f3ed023-a62b-434a-901e-f4910f81a14c",
+      "state": {
+        "meta": {
+          "idea": "Runaway alchemist seeking a cure",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "8f3ed023-a62b-434a-901e-f4910f81a14c",
+            "name": "High Concept",
+            "description": "Fugitive Alchemist on a Desperate Quest",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "b96318e0-82d9-40bd-bd97-c7220969855b",
+            "name": "Trouble",
+            "description": "My Magnum Opus Is My Curse",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [],
+        "stunts": [
+          {
+            "id": "951a3d1c-0f96-4f89-8639-d38c1242d72d",
+            "name": "Alchemical Analysis",
+            "description": "Because of your deep understanding of chemical and mystical properties, you can use Lore instead of Investigate to Overcome obstacles when analyzing strange substances, magical traps, or complex ailments.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "invoke",
+          "title": "Knowledge from the Road",
+          "narrative": "Your desperate quest has forced you to learn on the run, studying obscure ingredients and forgotten formulas in dusty libraries or ancient ruins. When you encounter a rare substance or a complex magical puzzle, you realize you've seen something like it before in your frantic research.",
+          "mechanics": "Spend a Fate Point to invoke **Fugitive Alchemist on a Desperate Quest** for a +2 bonus when using Lore or Crafts to identify or utilize a rare alchemical component."
+        },
+        {
+          "type": "compel",
+          "title": "Pursuers at the Gates",
+          "narrative": "You're close to finding a new lead, but then the tell-tale signs of your pursuers appear—a 'Wanted' poster with your face, a whispered description in the marketplace, or the unmistakable insignia of the guild you fled. You can't risk staying here; the danger is too great and could jeopardize your entire quest.",
+          "mechanics": "Accept a Fate Point to compel **Fugitive Alchemist on a Desperate Quest**, forcing you to abandon your current location or objective to avoid being captured."
+        }
+      ],
+      "notes": "This High Concept is a powerful engine for the campaign. The 'Fugitive Alchemist' half provides constant opportunities for invokes on knowledge skills (Lore, Investigate) and compels related to being hunted. The 'Desperate Quest' half justifies why the character pushes limits and seeks out dangerous places, providing narrative permission for proactive play."
+    }
+  },
+  {
+    "input": {
+      "target_type": "aspect",
+      "target_id": "16d2c6fb-fd7f-4f3b-84be-5c75029e13c6",
+      "state": {
+        "meta": {
+          "idea": "Clockwork tinkerer with a human heart",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "16d2c6fb-fd7f-4f3b-84be-5c75029e13c6",
+            "name": "High Concept",
+            "description": "Clockwork Automaton with a Human Heart",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "a8dc59e2-5ac7-4b5e-8b5d-a76893865f54",
+            "name": "Trouble",
+            "description": "My Emotions Overload My Circuits",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "f0580538-8e7c-497e-be13-ebd9f9d39be5",
+            "name": "Crafts",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "791faf3b-d7f8-4487-8ee1-52cb8dfcd449",
+            "name": "Empathy",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "c2568245-dfdf-4635-ae17-c285d229f00e",
+            "name": "Lore",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "4dc521eb-4a30-4ad5-9770-b449b0ea02d6",
+            "name": "Notice",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": [
+          {
+            "id": "f7705ec9-09ae-457d-aaee-d64e243f5953",
+            "name": "Clockwork Cascade",
+            "description": "Once per scene, when you use Crafts to create an advantage by jury-rigging a complex contraption from nearby parts, you can declare you're setting up a cascade. If you succeed, the situation aspect you create is particularly complex and difficult to undo, imposing a +2 opposition against any Overcome rolls to remove it.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "invoke",
+          "title": "Inhuman Precision",
+          "narrative": "When facing a task that requires absolute steadiness and microscopic precision, your clockwork nature is a huge asset. Whether you're disarming a hair-trigger trap or performing delicate repairs on a complex mechanism, your gears and servos allow for a level of control that flesh and blood can't match.",
+          "mechanics": "Invoke **Clockwork Automaton with a Human Heart** for a +2 or a reroll on a Crafts roll for a delicate, precision-based task."
+        },
+        {
+          "type": "create_advantage",
+          "title": "Disarming Humanity",
+          "narrative": "People see a machine and expect a cold, logical mind. You can use this to your advantage by showing unexpected warmth and understanding, thanks to your human heart. This surprising display of emotion can catch people off guard, making them more receptive to you.",
+          "mechanics": "Use Empathy to Create an Advantage like **Surprisingly Empathetic** by revealing the 'human' side of your **Clockwork Automaton with a Human Heart** aspect."
+        }
+      ],
+      "notes": "Generated one invoke and one create advantage hint for the High Concept. The invoke focuses on the 'Clockwork Automaton' side and its synergy with the Crafts skill. The create advantage hint highlights the 'Human Heart' side and its use with the Empathy skill, playing on the inherent contrast of the aspect."
+    }
+  },
+  {
+    "input": {
+      "target_type": "aspect",
+      "target_id": "491f860c-2f12-433e-8317-1805f373df06",
+      "state": {
+        "meta": {
+          "idea": "Gentle giant sworn to nonviolence",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "491f860c-2f12-433e-8317-1805f373df06",
+            "name": "High Concept",
+            "description": "A Mountain of a Man with a Heart of a Dove",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "9edec1a8-4c40-4ea4-8b76-2af2548c8ada",
+            "name": "Trouble",
+            "description": "The Scars of My Violent Past",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "e46e0b76-995e-4b8e-a662-d3a682520bec",
+            "name": "Physique",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "fefde442-e4f8-4a64-8409-80c846ec5668",
+            "name": "Will",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "e72bc353-4838-4753-8357-bf71105acf43",
+            "name": "Empathy",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "a91f5f9b-a3cb-4a97-89cf-876187a385cb",
+            "name": "Rapport",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": [
+          {
+            "id": "164fb61e-35e1-4a5e-aacf-41e1c3b362c2",
+            "name": "Acrobat's Flourish",
+            "description": "+2 to Overcome with Athletics when flipping across obstacles.",
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "0145e5d1-3944-45b8-abac-3ffa56686a15",
+            "name": "A Bear's Embrace",
+            "description": "Because I am a **Mountain of a Man** sworn to nonviolence, I gain a +2 when I use Physique to make an attack intended to non-lethally restrain or grapple an opponent.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "invoke",
+          "title": "Towering Protector",
+          "narrative": "Your sheer size can be a shield for others. When someone is in danger, you can plant your feet and become a living wall, weathering blows or simply making it impossible for an aggressor to reach their target without going through you.",
+          "mechanics": "Spend a Fate Point to invoke this aspect for a +2 bonus when using Physique to Defend someone else or Overcome a physical obstacle by being imposing."
+        },
+        {
+          "type": "compel",
+          "title": "Too Gentle for the Job",
+          "narrative": "Sometimes, a situation calls for a heavy hand, but your gentle nature gets in the way. You might try to reason with a guard you could easily overpower, or carefully disarm a trap when smashing it would be faster, giving your opposition a crucial opening.",
+          "mechanics": "The GM can offer a Fate Point to compel you to choose a gentle, less effective solution when a forceful one is required, creating a complication or worsening the situation."
+        }
+      ],
+      "notes": "Generated one invoke hint focusing on the 'Mountain of a Man' for proactive, protective actions, and one compel hint focusing on the 'Heart of a Dove' to create complications from the character's non-violent nature."
+    }
+  },
+  {
+    "input": {
+      "target_type": "aspect",
+      "target_id": "f766d97a-4f04-4227-a906-2b4da11d9f6e",
+      "state": {
+        "meta": {
+          "idea": "Silver-tongued thief with a code",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "f766d97a-4f04-4227-a906-2b4da11d9f6e",
+            "name": "High Concept",
+            "description": "Gentleman Thief with an Unbreakable Code",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "260faffb-e53b-44ce-ac74-1d712079fa9b",
+            "name": "Trouble",
+            "description": "Can't Turn Down a Worthy Challenge",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [],
+        "stunts": [
+          {
+            "id": "b1d1c46d-3d42-441f-875c-b52c08745b5f",
+            "name": "Silver Tongue",
+            "description": "+2 to Create Advantage with Rapport when sowing doubt.",
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "50acb601-c07a-49b3-8f23-334b9efbb076",
+            "name": "Unshakeable Composure",
+            "description": "Once per scene, gain +2 to your Will roll when defending against a Provoke attack.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "invoke",
+          "title": "Blending In with the Elite",
+          "narrative": "You're at a high-stakes auction, not to bid, but to scout the security for your next job. As a 'Gentleman Thief', you move through the crowd with an easy grace, your tailored suit and confident smile making you indistinguishable from the other millionaires. Your impeccable manners and knowledge of the fine arts allow you to get close to the target without raising a single eyebrow.",
+          "mechanics": "Spend a Fate Point for a +2 bonus or a reroll on a Deceive or Rapport roll when navigating high-society situations."
+        },
+        {
+          "type": "compel",
+          "title": "The Code Demands It",
+          "narrative": "You've successfully cracked the safe and are about to make off with the prize when you realize it's not a corporate asset, but a family heirloom with immense sentimental value. Your 'Unbreakable Code' won't let you steal something so personal from an otherwise innocent family. You are compelled to leave the object behind, making the entire risky endeavor a waste of time and resources.",
+          "mechanics": "Accept a Fate Point when your code forces you to abandon a lucrative target or take a significantly more difficult path to avoid harming the undeserving."
+        }
+      ],
+      "notes": "This High Concept provides a strong duality. Use 'Gentleman Thief' for invokes related to social grace, deception, and planning heists in high-society settings. Use 'Unbreakable Code' as a rich source for compels where your principles get in the way of an easy score."
+    }
+  },
+  {
+    "input": {
+      "target_type": "aspect",
+      "target_id": "7914f1a7-2d79-4361-acbf-4f6873d86555",
+      "state": {
+        "meta": {
+          "idea": "Haunted bard who remembers future songs",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "7914f1a7-2d79-4361-acbf-4f6873d86555",
+            "name": "High Concept",
+            "description": "Prescient Minstrel Haunted by Unsung Melodies",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "04be28d3-1c55-4845-8c18-566d0cf3ee5f",
+            "name": "Trouble",
+            "description": "These Aren't My Songs",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "7b4727bf-fb11-45b9-b8e6-fa4beab23ad0",
+            "name": "Rapport",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "04932a6e-be70-497a-9e77-72a65a3e24d8",
+            "name": "Empathy",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "0dae191f-6c02-4abe-b919-c94abf82c479",
+            "name": "Lore",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "6d2e2023-f128-4ad2-8320-647465907252",
+            "name": "Will",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": [
+          {
+            "id": "c914f459-d4d5-4d76-bba2-eaee029ac2a6",
+            "name": "Hymn of the Oncoming Storm",
+            "description": "The future songs are a cacophony of fear, sorrow, and dread, but you've learned to use that. Once per session, when you must make an Overcome roll to resist mental or emotional influence, you may use Rapport instead of Will. You are not calming yourself, but rather overwhelming the external influence with a glimpse of all the sorrows yet to come.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "create_advantage",
+          "title": "Prophetic Melody",
+          "narrative": "You can sense the future of a person or situation as a song forming in your mind. When you need to sway a tense negotiation or unnerve a stoic guard, you can perform this 'unsung melody.' The tune gives your target a chilling glimpse of what's to come, making them hesitate or revealing their true intentions.",
+          "mechanics": "Invoke **Prescient Minstrel Haunted by Unsung Melodies** to use Rapport or Empathy to Create an Advantage like `Glimpse of a Dire Future` on a target."
+        },
+        {
+          "type": "compel",
+          "title": "Cacophony of What's to Come",
+          "narrative": "You're trying to concentrate on a delicate task, but your mind is suddenly flooded with a dozen clashing melodies of futures that might be. This disorienting psychic noise makes it nearly impossible to focus on the present moment, causing your hands to shake or your words to falter at a critical juncture.",
+          "mechanics": "Accept a compel on **Prescient Minstrel Haunted by Unsung Melodies** to gain a Fate Point when you become distracted and fail an important roll, or gain a negative aspect like `Deafened by the Future`."
+        }
+      ],
+      "notes": "These hints focus on the two sides of your High Concept: the 'Prescient Minstrel' who can use future knowledge to their advantage, and the 'Haunted' artist who is sometimes overwhelmed by it. The first hint ties into your high Rapport and Empathy skills, while the second provides a clear, actionable compel for the GM."
+    }
+  },
+  {
+    "input": {
+      "target_type": "stunt",
+      "target_id": "57e1f419-afec-42be-8c6f-8dea4f2aa1a4",
+      "state": {
+        "meta": {
+          "idea": "Witty detective with a dark past",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "3ede17a0-d238-4489-acf7-7b3fc8d09d9d",
+            "name": "High Concept",
+            "description": "Quick-Witted Noir Detective",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "c03d283a-d923-422e-a13b-727ce1359a55",
+            "name": "Trouble",
+            "description": "My Past Won't Stay Buried",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [],
+        "stunts": [
+          {
+            "id": "57e1f419-afec-42be-8c6f-8dea4f2aa1a4",
+            "name": "I've Seen It All Before",
+            "description": "Because your past is full of grim cases, you get a +2 to Overcome with Investigate when examining a situation that reminds you of a case you'd rather forget.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "trigger",
+          "title": "Déjà Vu at the Crime Scene",
+          "narrative": "You're called to a particularly gruesome murder, and the killer's signature is identical to the 'Butcher of Elm Street' case that went cold five years ago. This chilling familiarity is exactly what your stunt is for.",
+          "mechanics": "Declare the situation reminds you of a past case to get +2 to your Investigate roll to Overcome the scene's complexity and find the first major clue."
+        },
+        {
+          "type": "edge_case",
+          "title": "Not Just a Place, But a Person",
+          "narrative": "During an interrogation, a suspect's lies and mannerisms feel unnervingly familiar. You realize they're using the same evasion tactics as a con artist you put away years ago, allowing you to see through their deception.",
+          "mechanics": "Use the stunt's +2 bonus when examining a person's behavior or testimony if it mirrors a past encounter, helping you Overcome their attempts to hide the truth."
+        },
+        {
+          "type": "synergy",
+          "title": "When Trouble Helps",
+          "narrative": "The GM compels your Trouble, *My Past Won't Stay Buried*, revealing the current antagonist is the protégé of a villain from your past. While this complicates things, it also means you recognize their methods, triggering your stunt.",
+          "mechanics": "After accepting a compel on *My Past Won't Stay Buried* related to an old case, use this stunt's bonus and also consider spending the Fate Point you gained to invoke the Trouble for an even larger bonus."
+        }
+      ],
+      "notes": "Generated 3 hints for the Stunt 'I've Seen It All Before': one for its primary trigger, one for an edge case (applying it to people, not just scenes), and one showing synergy with the Trouble aspect."
+    }
+  },
+  {
+    "input": {
+      "target_type": "stunt",
+      "target_id": "0dfbeb47-1b63-46f4-9a0b-719a84dbd7c6",
+      "state": {
+        "meta": {
+          "idea": "Exiled noble turned wandering swordmage",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "02646325-41ec-4db8-be3b-c155bd57f6a9",
+            "name": "High Concept",
+            "description": "Exiled Scion of a Magical Bloodline",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "408b959d-1358-4527-a0cd-bc418a9cdcce",
+            "name": "Trouble",
+            "description": "My Family's Enemies Are Now Mine",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "d260c07d-a589-475b-91f7-442146b94807",
+            "name": "Fight",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "ac469c9b-b73f-4447-aee6-ac4b7deac86c",
+            "name": "Lore",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "5b2805eb-7b8c-4a75-bedc-1d88a0872b4b",
+            "name": "Will",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "d0048088-2fa5-41d4-890c-a147e49879d7",
+            "name": "Athletics",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": [
+          {
+            "id": "0dfbeb47-1b63-46f4-9a0b-719a84dbd7c6",
+            "name": "Arcane Flourish",
+            "description": "When you use Fight to Create an Advantage by weaving a minor cantrip into your swordplay, creating aspects like **Dazzling Feint** or **Entangling Shadows**, you gain an additional free invoke if you succeed with style.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "trigger",
+          "title": "Dazzling Feint for the Finish",
+          "narrative": "You're locked in a tense duel with a single, skilled opponent. Instead of a direct attack, you swing your blade in a disorienting arc, a flash of brilliant light erupting from the steel to momentarily blind your foe. This leaves them exposed and vulnerable to your next, decisive strike.",
+          "mechanics": "Roll Fight to Create an Advantage. If you succeed with style (beat their defense by 3+), you place an aspect like **Blinded by Light** on them with two free invokes."
+        },
+        {
+          "type": "edge_case",
+          "title": "Controlling the Battlefield",
+          "narrative": "When facing multiple minions, you can use this stunt to affect an area instead of one person. You drag your sword tip across the floor, causing grasping, shadowy tendrils to erupt in a specific zone. This makes the area difficult terrain for your enemies, slowing their advance and leaving them tangled.",
+          "mechanics": "Use Fight to Create an Advantage against a static difficulty to create a zone aspect like **Grasping Shadows**. A success with style gives you and your allies two invokes to use on foes in the zone."
+        },
+        {
+          "type": "synergy",
+          "title": "Lore-Informed Flourish",
+          "narrative": "Your Lore skill reveals a magical creature's specific weakness, such as a vulnerability to sonic frequencies. You then use your Arcane Flourish to swing your sword in a way that generates a high-pitched, magical shriek, perfectly exploiting this weakness to stagger and confuse it.",
+          "mechanics": "First, use Lore to discover or create an aspect like **Aversion to Sound**. Then, use this stunt, invoking that aspect for a +2 to your Fight roll to create a new advantage like **Stunned by Shriek**."
+        }
+      ],
+      "notes": "This stunt is designed to make the Create an Advantage action a core part of your combat strategy. Focus on succeeding with style with your high Fight skill to generate multiple free invokes, setting yourself or your allies up for powerful follow-up actions."
+    }
+  },
+  {
+    "input": {
+      "target_type": "stunt",
+      "target_id": "c256854d-76ec-4d2d-826b-a3c4fd06aace",
+      "state": {
+        "meta": {
+          "idea": "Cynical medic who can hear ghosts",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "a831e812-8b92-4754-8400-b1018ef87a4c",
+            "name": "High Concept",
+            "description": "Pragmatic Medic Plagued by Spirits",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "122ec2a5-ca32-4336-a0a8-56ad857d750d",
+            "name": "Trouble",
+            "description": "The Whispers Never Stop",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "7c52f969-9cb8-418c-a2fe-aceb1dc873a8",
+            "name": "Will",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "b0197ff7-d443-4cef-aadd-666f7717d198",
+            "name": "Lore",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "e3d83da0-24ba-4dbb-a2ee-0bdfe84679c6",
+            "name": "Notice",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "5b5ccc42-fc1b-476f-95df-a6decac35f15",
+            "name": "Empathy",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": [
+          {
+            "id": "c256854d-76ec-4d2d-826b-a3c4fd06aace",
+            "name": "Acrobat's Flourish",
+            "description": "+2 to Overcome with Athletics when flipping across obstacles.",
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "ef3d912c-d69f-46c4-a64b-73950f437987",
+            "name": "Psychic Scalpel",
+            "description": "Because of my precise medical training and constant exposure to the supernatural, I get a +2 to Will when I make mental attacks against ghosts or other spiritual entities.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "trigger",
+          "title": "Daring Escape",
+          "narrative": "You're being chased through a cluttered alley or across rooftops by something that can't easily follow your parkour. You leap between buildings, vault over dumpsters, and slide under closing gates to make your getaway.",
+          "mechanics": "When making an Athletics roll to Overcome obstacles while fleeing, apply the +2 bonus."
+        },
+        {
+          "type": "edge_case",
+          "title": "Flashy Distraction",
+          "narrative": "You need to draw attention away from an ally. You perform a series of spectacular flips and vaults over the furniture in the room, making so much noise and motion that all eyes are on you.",
+          "mechanics": "Use this stunt to get a +2 to an Athletics roll to Create an Advantage like **Look At Me!** on your opponents."
+        },
+        {
+          "type": "synergy",
+          "title": "Battlefield Triage",
+          "narrative": "An ally is wounded in a hard-to-reach place, like behind a barricade or across a chasm. This stunt allows you to quickly and safely traverse the dangerous terrain to get to them and apply your medical skills.",
+          "mechanics": "Use this stunt on an Athletics Overcome roll to reach a wounded ally, linking it to your **Pragmatic Medic** High Concept."
+        }
+      ],
+      "notes": "This stunt requires the Athletics skill to use. Since your character does not currently have Athletics listed, they would roll at Mediocre (+0) by default. You may want to consider adding Athletics to your skill list to make this stunt more effective."
+    }
+  },
+  {
+    "input": {
+      "target_type": "stunt",
+      "target_id": "ef3d912c-d69f-46c4-a64b-73950f437987",
+      "state": {
+        "meta": {
+          "idea": "Cynical medic who can hear ghosts",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "a831e812-8b92-4754-8400-b1018ef87a4c",
+            "name": "High Concept",
+            "description": "Pragmatic Medic Plagued by Spirits",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "122ec2a5-ca32-4336-a0a8-56ad857d750d",
+            "name": "Trouble",
+            "description": "The Whispers Never Stop",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "7c52f969-9cb8-418c-a2fe-aceb1dc873a8",
+            "name": "Will",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "b0197ff7-d443-4cef-aadd-666f7717d198",
+            "name": "Lore",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "e3d83da0-24ba-4dbb-a2ee-0bdfe84679c6",
+            "name": "Notice",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "5b5ccc42-fc1b-476f-95df-a6decac35f15",
+            "name": "Empathy",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": [
+          {
+            "id": "c256854d-76ec-4d2d-826b-a3c4fd06aace",
+            "name": "Acrobat's Flourish",
+            "description": "+2 to Overcome with Athletics when flipping across obstacles.",
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "ef3d912c-d69f-46c4-a64b-73950f437987",
+            "name": "Psychic Scalpel",
+            "description": "Because of my precise medical training and constant exposure to the supernatural, I get a +2 to Will when I make mental attacks against ghosts or other spiritual entities.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "trigger",
+          "title": "Surgical Strike on a Spectre",
+          "narrative": "A malevolent spirit is terrorizing a hospital ward, causing equipment to malfunction and threatening patients. You focus your will, using your precise medical knowledge of anatomy as a template to strike at the ghost's ethereal form. Your mental attack is not a blunt instrument, but a targeted, devastating scalpel.",
+          "mechanics": "Use this stunt when you make a mental Attack action with Will against a ghost or spiritual entity to gain a +2 bonus."
+        },
+        {
+          "type": "edge_case",
+          "title": "Severing a Psychic Link",
+          "narrative": "A ghost isn't attacking directly, but is instead possessing a person or object. Rather than harm the host, you can use your psychic precision to target the spiritual connection itself. You aim your mental attack not at the ghost, but at the ethereal tendrils linking it to the physical world.",
+          "mechanics": "Ask your GM if you can use this stunt to directly Attack a situation aspect representing possession (e.g., `Tethered to the Antique Mirror`) to weaken or break the link."
+        },
+        {
+          "type": "synergy",
+          "title": "Anatomical Arcana",
+          "narrative": "Your knowledge of the occult gives you an edge. Before attacking, you spend a moment studying the entity, using your Lore to identify a spiritual weak point, like a psychic nerve cluster or an emotional anchor point. This knowledge allows you to guide your mental scalpel for maximum impact.",
+          "mechanics": "First, use Lore to Create an Advantage like `Spiritual Weak Point Identified`. Then, invoke that aspect for a +2 on your Will Attack, stacking with this stunt's bonus for a total +4."
+        }
+      ],
+      "notes": "This stunt is a core part of your character's combat ability against supernatural foes, leveraging your peak Will skill. The hints focus on its direct application, creative uses against non-corporeal targets, and how to combine it with your Lore skill for maximum effect."
+    }
+  },
+  {
+    "input": {
+      "target_type": "stunt",
+      "target_id": "2b5e58eb-0696-4df9-a886-36387bd67931",
+      "state": {
+        "meta": {
+          "idea": "Optimistic archaeologist chasing forbidden myths",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "caf3acc9-ce03-4441-b921-1dd545e62d12",
+            "name": "High Concept",
+            "description": "Plucky Archaeologist Seeking Forbidden Truths",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "d25e894c-38e8-44e8-81d6-d64a34738048",
+            "name": "Trouble",
+            "description": "A Magnet for Mythological Misfortune",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [],
+        "stunts": [
+          {
+            "id": "2b5e58eb-0696-4df9-a886-36387bd67931",
+            "name": "Silver Tongue",
+            "description": "+2 to Create Advantage with Rapport when sowing doubt.",
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "30319acb-40ef-4f7e-8c17-46ba522c3345",
+            "name": "Foretold in the Hieroglyphs",
+            "description": "Once per scene, you can use your Lore skill to Defend against a supernatural threat or an ancient trap.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "trigger",
+          "title": "Question the Gatekeeper",
+          "narrative": "You're trying to access a restricted archive or a sensitive dig site, but a stubborn bureaucrat or guard is blocking your way. Instead of a direct confrontation, you engage them in conversation, subtly planting seeds of doubt about their orders or the competence of their superiors. A few well-placed questions can make them wonder if following protocol is truly in their best interest.",
+          "mechanics": "Pay a Fate Point to get a +2 when using Rapport to Create an Advantage like 'Hesitant Official' or 'Ignoring Protocol' on the guard."
+        },
+        {
+          "type": "edge_case",
+          "title": "Undermine a Rival's Research",
+          "narrative": "In a public forum or private meeting, your academic rival presents their findings with smug certainty. You can use this stunt not to attack them, but to make them doubt themselves. By politely but pointedly questioning a minor detail or a translated phrase, you can unravel their confidence in front of their patrons or peers.",
+          "mechanics": "Use Rapport to Create an Advantage like 'Shaken Confidence' on your rival, which you or an ally can invoke on a later roll to discredit them."
+        },
+        {
+          "type": "synergy",
+          "title": "Weaken a Cultist's Conviction",
+          "narrative": "Your Trouble, 'A Magnet for Mythological Misfortune,' has led you to a cultist guarding a sacred relic. They are fanatically devoted, but you can use your knowledge of their own myths against them. By highlighting contradictions in their dogma, you can sow doubt in their faith, making them question their purpose.",
+          "mechanics": "This stunt synergizes with your High Concept. Create an Advantage like 'Crisis of Faith' on an enemy, making them vulnerable to Provoke or Rapport attacks from your allies."
+        }
+      ],
+      "notes": "Generated three hints for the 'Silver Tongue' stunt: a primary trigger for getting past obstacles, an edge case for academic rivalry, and a synergy hint that ties into the character's mythological focus."
+    }
+  },
+  {
+    "input": {
+      "target_type": "stunt",
+      "target_id": "30319acb-40ef-4f7e-8c17-46ba522c3345",
+      "state": {
+        "meta": {
+          "idea": "Optimistic archaeologist chasing forbidden myths",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "caf3acc9-ce03-4441-b921-1dd545e62d12",
+            "name": "High Concept",
+            "description": "Plucky Archaeologist Seeking Forbidden Truths",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "d25e894c-38e8-44e8-81d6-d64a34738048",
+            "name": "Trouble",
+            "description": "A Magnet for Mythological Misfortune",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [],
+        "stunts": [
+          {
+            "id": "2b5e58eb-0696-4df9-a886-36387bd67931",
+            "name": "Silver Tongue",
+            "description": "+2 to Create Advantage with Rapport when sowing doubt.",
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "30319acb-40ef-4f7e-8c17-46ba522c3345",
+            "name": "Foretold in the Hieroglyphs",
+            "description": "Once per scene, you can use your Lore skill to Defend against a supernatural threat or an ancient trap.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "trigger",
+          "title": "It's All in the Old Texts",
+          "narrative": "When a spectral guardian rises from its sarcophagus or the floor gives way to a pressure-plate trap, this is your moment. You recall the specific warding gestures described on the tomb's entrance or recognize the trap's mechanism from ancient scrolls. This is exactly what the ancient warnings were about.",
+          "mechanics": "When you are the target of an Attack from a supernatural source or an ancient trap, declare you are using this stunt to roll Lore to Defend."
+        },
+        {
+          "type": "edge_case",
+          "title": "Defending Against Curses",
+          "narrative": "A rival touches a cursed idol, and you see a malevolent aura begin to form around them. This isn't a direct attack, but a creeping magical effect. You can use your knowledge to quickly recite a protective verse or draw a counter-sigil in the air to shield them from the worst of it.",
+          "mechanics": "Discuss with the GM if you can use this stunt to Defend against non-Attack actions, like an opponent trying to Create an Advantage by placing a 'Cursed' aspect on a character."
+        },
+        {
+          "type": "synergy",
+          "title": "Proactive Prophecy",
+          "narrative": "Before trouble starts, you can use your academic knowledge to prepare. You might decipher a mural depicting the chamber's guardians, pointing out their weaknesses to your allies. This foreknowledge becomes a tangible defense when the guardians finally animate.",
+          "mechanics": "Use Lore to Create an Advantage like 'Familiar With the Guardian's Pattern' on the scene. If you later need to use this stunt, you can invoke that free aspect on your Defend roll."
+        }
+      ],
+      "notes": "This stunt is a core part of your character's 'archaeologist' concept, turning your academic Lore skill into a powerful defensive tool in the field. It's your primary way of surviving the dangers your Trouble, 'A Magnet for Mythological Misfortune', throws at you."
+    }
+  },
+  {
+    "input": {
+      "target_type": "stunt",
+      "target_id": "d3c5b80d-d942-4ef0-b69e-c0b2eb065d3b",
+      "state": {
+        "meta": {
+          "idea": "Retired monster hunter pulled back in",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "283470d2-9814-4e5c-9454-3a58f5c6b531",
+            "name": "High Concept",
+            "description": "Reluctant Slayer of Nightmares",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "5de6f710-720e-455a-a03a-ce9b525ead28",
+            "name": "Trouble",
+            "description": "The Monsters Haven't Forgotten Me",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "d617a797-c47b-4669-bb64-fbeb970f4654",
+            "name": "Investigate",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "6a1ea357-ca09-4738-89bf-ace4317f1ef3",
+            "name": "Fight",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "f32a9b6a-bb9b-4a1e-b1d3-e110e47d7128",
+            "name": "Lore",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "3ca8ef71-b70a-4ef9-b84f-1312d14f18ec",
+            "name": "Notice",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": [
+          {
+            "id": "d3c5b80d-d942-4ef0-b69e-c0b2eb065d3b",
+            "name": "Monstrous Logic",
+            "description": "You've spent a lifetime hunting things that don't follow human rules. You gain a +2 bonus when you use Investigate to Overcome an obstacle that is a trap, puzzle, or non-physical barrier created by a supernatural entity.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "trigger",
+          "title": "Unravel the Ghostly Wards",
+          "narrative": "A spectral barrier seals the haunted asylum's door, shimmering with ethereal energy. You've seen this kind of spiritual lock before and know it's not about force, but about understanding the ghost's mindset. You trace the patterns in the air, looking for the logical flaw in its construction to dismantle it without a fight.",
+          "mechanics": "Use Investigate to Overcome the magical barrier; gain your +2 bonus because it's a non-physical barrier from a supernatural entity."
+        },
+        {
+          "type": "edge_case",
+          "title": "Navigate the Vampire's Etiquette",
+          "narrative": "You're at a powerful vampire's court, and the social protocols are a minefield designed to trap the unwary. This isn't just manners; it's a complex puzzle of dominance and obligation, crafted by an ancient, predatory mind. You can apply your monstrous logic to navigate the conversation, avoiding verbal traps and hidden insults.",
+          "mechanics": "Use Investigate to Overcome the social puzzle; gain your +2 bonus by framing the conversation as a non-physical trap."
+        },
+        {
+          "type": "synergy",
+          "title": "Lore-Fueled Investigation",
+          "narrative": "The ancient tomb is filled with pressure plates, but they respond to constellations that no longer exist in the sky. First, you use your knowledge of forgotten things to recall the ancient star-charts this cult would have used. With that key piece of information, you can then easily deduce the safe path through the trap-filled chamber.",
+          "mechanics": "First, use Lore to Create an Advantage like *Knows the Ancient Stars*. Then, invoke that aspect on your Investigate Overcome roll to solve the puzzle, adding your +2 stunt bonus on top."
+        }
+      ],
+      "notes": "This stunt solidifies your role as the team's problem-solver for arcane and unnatural challenges. Use it whenever a monster's influence has created a non-combat obstacle, like a curse, a ward, a riddle, or a supernatural trap. It synergizes well with your Lore and Notice skills, which can help identify that an obstacle is supernatural in the first place."
+    }
+  },
+  {
+    "input": {
+      "target_type": "stunt",
+      "target_id": "951a3d1c-0f96-4f89-8639-d38c1242d72d",
+      "state": {
+        "meta": {
+          "idea": "Runaway alchemist seeking a cure",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "8f3ed023-a62b-434a-901e-f4910f81a14c",
+            "name": "High Concept",
+            "description": "Fugitive Alchemist on a Desperate Quest",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "b96318e0-82d9-40bd-bd97-c7220969855b",
+            "name": "Trouble",
+            "description": "My Magnum Opus Is My Curse",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [],
+        "stunts": [
+          {
+            "id": "951a3d1c-0f96-4f89-8639-d38c1242d72d",
+            "name": "Alchemical Analysis",
+            "description": "Because of your deep understanding of chemical and mystical properties, you can use Lore instead of Investigate to Overcome obstacles when analyzing strange substances, magical traps, or complex ailments.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "trigger",
+          "title": "Diagnose the Mysterious Illness",
+          "narrative": "A key ally has been struck down by a fast-acting, unknown ailment that baffles local healers. This is a prime opportunity to use your specialized knowledge. You can analyze a sample of their blood or the residue on the delivery mechanism to identify the poison's complex magical and chemical nature.",
+          "mechanics": "Use Lore instead of Investigate to Overcome the obstacle presented by the complex ailment."
+        },
+        {
+          "type": "edge_case",
+          "title": "Deconstruct a Magical Ward",
+          "narrative": "Your path is blocked by a shimmering barrier, a magical trap designed to repel intruders. While others see only arcane symbols, you perceive the mystical components and reagents woven into the spell. By analyzing its structure, you can identify the key element to disrupt, effectively unravelling the entire ward.",
+          "mechanics": "Use Lore to Create an Advantage like **[Structural Flaw Identified]** on a magical trap."
+        },
+        {
+          "type": "synergy",
+          "title": "Analyze a Related Taint",
+          "narrative": "You encounter a corrupted spring, its water tainted with an alchemical poison that feels disturbingly familiar. Your own curse, **My Magnum Opus Is My Curse**, gives you a unique insight into this kind of transformative alchemy. This painful expertise allows you to analyze the substance with unparalleled speed and accuracy.",
+          "mechanics": "Invoke **My Magnum Opus Is My Curse** for a +2 when using this stunt on an alchemical problem similar to your own past work."
+        }
+      ],
+      "notes": "This stunt replaces Investigate with Lore for analyzing complex substances, traps, or ailments. Use it to diagnose magical poisons, find weaknesses in arcane wards, and leverage your own troubled past for insight into similar alchemical corruptions."
+    }
+  },
+  {
+    "input": {
+      "target_type": "stunt",
+      "target_id": "f7705ec9-09ae-457d-aaee-d64e243f5953",
+      "state": {
+        "meta": {
+          "idea": "Clockwork tinkerer with a human heart",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "16d2c6fb-fd7f-4f3b-84be-5c75029e13c6",
+            "name": "High Concept",
+            "description": "Clockwork Automaton with a Human Heart",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "a8dc59e2-5ac7-4b5e-8b5d-a76893865f54",
+            "name": "Trouble",
+            "description": "My Emotions Overload My Circuits",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "f0580538-8e7c-497e-be13-ebd9f9d39be5",
+            "name": "Crafts",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "791faf3b-d7f8-4487-8ee1-52cb8dfcd449",
+            "name": "Empathy",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "c2568245-dfdf-4635-ae17-c285d229f00e",
+            "name": "Lore",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "4dc521eb-4a30-4ad5-9770-b449b0ea02d6",
+            "name": "Notice",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": [
+          {
+            "id": "f7705ec9-09ae-457d-aaee-d64e243f5953",
+            "name": "Clockwork Cascade",
+            "description": "Once per scene, when you use Crafts to create an advantage by jury-rigging a complex contraption from nearby parts, you can declare you're setting up a cascade. If you succeed, the situation aspect you create is particularly complex and difficult to undo, imposing a +2 opposition against any Overcome rolls to remove it.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "trigger",
+          "title": "The Unyielding Barricade",
+          "narrative": "You are cornered in a workshop with guards closing in. You grab loose gears, scrap metal, and wiring, rapidly assembling a complex, interlocking mechanism that slams the heavy doors shut. The device is a chaotic masterpiece, a puzzle box of moving parts that will confound anyone trying to force it open.",
+          "mechanics": "Use Crafts to Create an Advantage like 'Intricately Barricaded Door'. The stunt adds a +2 difficulty to any Overcome rolls to remove it."
+        },
+        {
+          "type": "edge_case",
+          "title": "Rube Goldberg Distraction",
+          "narrative": "Instead of a physical barrier, you can create a complex sensory one. You might rig a series of clattering gears, flashing lenses, and chiming bells to create a massive distraction in a crowded ballroom. The resulting chaos is difficult to \"undo\" because it's not a single object but a chain reaction of noise and light.",
+          "mechanics": "Create an Advantage with Crafts to create an aspect like 'Cacophonous Clockwork Cascade'. The +2 opposition applies to anyone trying to restore order."
+        },
+        {
+          "type": "synergy",
+          "title": "A Heartfelt Contraption",
+          "narrative": "Your unique nature allows you to build devices with an emotional touch. After using your Empathy to learn what makes an opponent tick, you can build a small, intricate contraption that preys on their fears or hopes, making them hesitant to dismantle your work.",
+          "mechanics": "Pair with Empathy; first, discover an aspect on your target. Then, use this stunt to create a situation aspect like 'Painful Reminder', which is now +2 harder to Overcome."
+        }
+      ],
+      "notes": "This stunt excels at battlefield control, making advantages you create with Crafts much more durable. Think beyond simple barriers; use it to create complex distractions, timed events, or intricate traps that your enemies can't easily bypass, buying you and your allies precious time."
+    }
+  },
+  {
+    "input": {
+      "target_type": "stunt",
+      "target_id": "164fb61e-35e1-4a5e-aacf-41e1c3b362c2",
+      "state": {
+        "meta": {
+          "idea": "Gentle giant sworn to nonviolence",
+          "setting": null,
+          "ladderType": "1-4"
+        },
+        "aspects": [
+          {
+            "id": "491f860c-2f12-433e-8317-1805f373df06",
+            "name": "High Concept",
+            "description": "A Mountain of a Man with a Heart of a Dove",
+            "locked": true,
+            "userEdited": false
+          },
+          {
+            "id": "9edec1a8-4c40-4ea4-8b76-2af2548c8ada",
+            "name": "Trouble",
+            "description": "The Scars of My Violent Past",
+            "locked": false,
+            "userEdited": true
+          }
+        ],
+        "skills": [
+          {
+            "id": "e46e0b76-995e-4b8e-a662-d3a682520bec",
+            "name": "Physique",
+            "rank": 4,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "fefde442-e4f8-4a64-8409-80c846ec5668",
+            "name": "Will",
+            "rank": 3,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "e72bc353-4838-4753-8357-bf71105acf43",
+            "name": "Empathy",
+            "rank": 2,
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "a91f5f9b-a3cb-4a97-89cf-876187a385cb",
+            "name": "Rapport",
+            "rank": 1,
+            "locked": false,
+            "userEdited": false
+          }
+        ],
+        "stunts": [
+          {
+            "id": "164fb61e-35e1-4a5e-aacf-41e1c3b362c2",
+            "name": "Acrobat's Flourish",
+            "description": "+2 to Overcome with Athletics when flipping across obstacles.",
+            "locked": false,
+            "userEdited": false
+          },
+          {
+            "id": "0145e5d1-3944-45b8-abac-3ffa56686a15",
+            "name": "A Bear's Embrace",
+            "description": "Because I am a **Mountain of a Man** sworn to nonviolence, I gain a +2 when I use Physique to make an attack intended to non-lethally restrain or grapple an opponent.",
+            "locked": false,
+            "userEdited": false
+          }
+        ]
+      }
+    },
+    "output": {
+      "hints": [
+        {
+          "type": "trigger",
+          "title": "Rooftop Pursuit",
+          "narrative": "When chasing a nimble thief across the city's rooftops, you don't have to be slowed down by the gaps between buildings. You can use your surprising grace to flip across a chasm or vault over a large air conditioning unit. This is the stunt's most direct application: getting over an obstacle quickly and with flair.",
+          "mechanics": "Use this stunt when you make an Overcome roll with Athletics to cross a distinct physical barrier in your path."
+        },
+        {
+          "type": "edge_case",
+          "title": "Acrobatic Distraction",
+          "narrative": "You need to create a diversion to help a friend slip past some guards. Instead of just making noise, you could perform a spectacular flip off a nearby cart or balcony. The sight of a **Mountain of a Man** performing such a feat would surely be distracting enough to create an opportunity.",
+          "mechanics": "Use this stunt to justify a Create an Advantage roll with Athletics, placing an aspect like **What Did I Just See?** on the scene."
+        },
+        {
+          "type": "synergy",
+          "title": "A Grand Entrance",
+          "narrative": "You're trying to de-escalate a tense standoff in a cluttered warehouse. Rather than slowly picking your way through, you flip over a stack of crates to land peacefully in the center of the group. This shocking, non-threatening arrival could synergize with your high Empathy, making your subsequent attempt to calm everyone down much more effective.",
+          "mechanics": "Pair this stunt with Empathy; use an Athletics Overcome roll to get into an ideal position to read or influence the emotional state of a situation."
+        }
+      ],
+      "notes": "This stunt is a significant mismatch for the character concept and skills. 'Acrobat's Flourish' requires the Athletics skill, which is not on your skill list, making it unusable as written. Thematically, acrobatics conflict with the 'Mountain of a Man' concept. Consider replacing this stunt with one that leverages your peak Physique or high Will, such as 'Immovable Object' or 'Resolute Calm', or add Athletics to your skills if you want to play up the 'surprisingly agile gentle giant' angle."
+    }
+  }
+]

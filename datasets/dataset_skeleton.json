@@ -1,0 +1,1002 @@
+[
+  {
+    "input": {
+      "idea": "Witty detective with a dark past",
+      "setting": null,
+      "skill_list": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ]
+    },
+    "output": {
+      "high_concept": "Quick-Witted Noir Detective",
+      "trouble": "My Past Won't Stay Buried",
+      "ranked_skills": [
+        "Investigate",
+        "Notice",
+        "Deceive",
+        "Contacts",
+        "Rapport",
+        "Provoke",
+        "Will",
+        "Empathy",
+        "Shoot",
+        "Fight",
+        "Stealth",
+        "Drive",
+        "Burglary",
+        "Athletics",
+        "Lore",
+        "Physique",
+        "Resources",
+        "Crafts"
+      ]
+    }
+  },
+  {
+    "input": {
+      "idea": "Exiled noble turned wandering swordmage",
+      "setting": null,
+      "skill_list": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ]
+    },
+    "output": {
+      "high_concept": "Exiled Scion of a Magical Bloodline",
+      "trouble": "My Family's Enemies Are Now Mine",
+      "ranked_skills": [
+        "Fight",
+        "Lore",
+        "Will",
+        "Athletics",
+        "Rapport",
+        "Notice",
+        "Physique",
+        "Deceive",
+        "Empathy",
+        "Investigate",
+        "Provoke",
+        "Stealth",
+        "Contacts",
+        "Resources",
+        "Crafts",
+        "Burglary",
+        "Shoot",
+        "Drive"
+      ]
+    }
+  },
+  {
+    "input": {
+      "idea": "Cynical medic who can hear ghosts",
+      "setting": null,
+      "skill_list": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ]
+    },
+    "output": {
+      "high_concept": "Pragmatic Medic Plagued by Spirits",
+      "trouble": "The Whispers Never Stop",
+      "ranked_skills": [
+        "Will",
+        "Lore",
+        "Notice",
+        "Empathy",
+        "Investigate",
+        "Provoke",
+        "Contacts",
+        "Deceive",
+        "Physique",
+        "Rapport",
+        "Stealth",
+        "Resources",
+        "Athletics",
+        "Fight",
+        "Shoot",
+        "Drive",
+        "Crafts",
+        "Burglary"
+      ]
+    }
+  },
+  {
+    "input": {
+      "idea": "Optimistic archaeologist chasing forbidden myths",
+      "setting": null,
+      "skill_list": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ]
+    },
+    "output": {
+      "high_concept": "Plucky Archaeologist Seeking Forbidden Truths",
+      "trouble": "A Magnet for Mythological Misfortune",
+      "ranked_skills": [
+        "Lore",
+        "Investigate",
+        "Notice",
+        "Will",
+        "Athletics",
+        "Rapport",
+        "Contacts",
+        "Resources",
+        "Empathy",
+        "Drive",
+        "Stealth",
+        "Physique",
+        "Crafts",
+        "Shoot",
+        "Deceive",
+        "Burglary",
+        "Fight",
+        "Provoke"
+      ]
+    }
+  },
+  {
+    "input": {
+      "idea": "Retired monster hunter pulled back in",
+      "setting": null,
+      "skill_list": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ]
+    },
+    "output": {
+      "high_concept": "Reluctant Slayer of Nightmares",
+      "trouble": "The Monsters Haven't Forgotten Me",
+      "ranked_skills": [
+        "Investigate",
+        "Fight",
+        "Lore",
+        "Notice",
+        "Will",
+        "Physique",
+        "Shoot",
+        "Athletics",
+        "Stealth",
+        "Crafts",
+        "Provoke",
+        "Contacts",
+        "Empathy",
+        "Deceive",
+        "Drive",
+        "Resources",
+        "Rapport",
+        "Burglary"
+      ]
+    }
+  },
+  {
+    "input": {
+      "idea": "Runaway alchemist seeking a cure",
+      "setting": null,
+      "skill_list": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ]
+    },
+    "output": {
+      "high_concept": "Fugitive Alchemist on a Desperate Quest",
+      "trouble": "My Magnum Opus Is My Curse",
+      "ranked_skills": [
+        "Crafts",
+        "Lore",
+        "Investigate",
+        "Will",
+        "Notice",
+        "Stealth",
+        "Deceive",
+        "Resources",
+        "Athletics",
+        "Empathy",
+        "Contacts",
+        "Burglary",
+        "Physique",
+        "Rapport",
+        "Provoke",
+        "Fight",
+        "Shoot",
+        "Drive"
+      ]
+    }
+  },
+  {
+    "input": {
+      "idea": "Clockwork tinkerer with a human heart",
+      "setting": null,
+      "skill_list": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ]
+    },
+    "output": {
+      "high_concept": "Clockwork Automaton with a Human Heart",
+      "trouble": "My Emotions Overload My Circuits",
+      "ranked_skills": [
+        "Crafts",
+        "Empathy",
+        "Lore",
+        "Notice",
+        "Investigate",
+        "Will",
+        "Physique",
+        "Rapport",
+        "Resources",
+        "Fight",
+        "Athletics",
+        "Shoot",
+        "Stealth",
+        "Contacts",
+        "Provoke",
+        "Deceive",
+        "Burglary",
+        "Drive"
+      ]
+    }
+  },
+  {
+    "input": {
+      "idea": "Gentle giant sworn to nonviolence",
+      "setting": null,
+      "skill_list": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ]
+    },
+    "output": {
+      "high_concept": "A Mountain of a Man with a Heart of a Dove",
+      "trouble": "The Scars of My Violent Past",
+      "ranked_skills": [
+        "Physique",
+        "Will",
+        "Empathy",
+        "Rapport",
+        "Notice",
+        "Provoke",
+        "Athletics",
+        "Contacts",
+        "Crafts",
+        "Investigate",
+        "Lore",
+        "Resources",
+        "Drive",
+        "Stealth",
+        "Deceive",
+        "Burglary",
+        "Shoot",
+        "Fight"
+      ]
+    }
+  },
+  {
+    "input": {
+      "idea": "Silver-tongued thief with a code",
+      "setting": null,
+      "skill_list": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ]
+    },
+    "output": {
+      "high_concept": "Gentleman Thief with an Unbreakable Code",
+      "trouble": "Can't Turn Down a Worthy Challenge",
+      "ranked_skills": [
+        "Deceive",
+        "Burglary",
+        "Stealth",
+        "Rapport",
+        "Athletics",
+        "Notice",
+        "Contacts",
+        "Investigate",
+        "Will",
+        "Empathy",
+        "Fight",
+        "Resources",
+        "Drive",
+        "Physique",
+        "Provoke",
+        "Lore",
+        "Shoot",
+        "Crafts"
+      ]
+    }
+  },
+  {
+    "input": {
+      "idea": "Haunted bard who remembers future songs",
+      "setting": null,
+      "skill_list": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ]
+    },
+    "output": {
+      "high_concept": "Prescient Minstrel Haunted by Unsung Melodies",
+      "trouble": "These Aren't My Songs",
+      "ranked_skills": [
+        "Rapport",
+        "Empathy",
+        "Lore",
+        "Will",
+        "Deceive",
+        "Crafts",
+        "Notice",
+        "Investigate",
+        "Contacts",
+        "Provoke",
+        "Stealth",
+        "Athletics",
+        "Resources",
+        "Burglary",
+        "Fight",
+        "Physique",
+        "Shoot",
+        "Drive"
+      ]
+    }
+  },
+  {
+    "input": {
+      "idea": "Daring skyship pilot chasing living storms",
+      "setting": "Shattered archipelago where cities float above an endless storm belt; guilds hoard wind-lore.",
+      "skill_list": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ]
+    },
+    "output": {
+      "high_concept": "Storm-Chasing Skyship Ace",
+      "trouble": "The Wind-Wardens Want Me Grounded",
+      "ranked_skills": [
+        "Drive",
+        "Notice",
+        "Will",
+        "Crafts",
+        "Athletics",
+        "Shoot",
+        "Lore",
+        "Investigate",
+        "Physique",
+        "Contacts",
+        "Fight",
+        "Provoke",
+        "Resources",
+        "Deceive",
+        "Stealth",
+        "Rapport",
+        "Burglary",
+        "Empathy"
+      ]
+    }
+  },
+  {
+    "input": {
+      "idea": "Archivist witch binding stray memories",
+      "setting": "A city built inside a petrified god; memories become spirits that must be archived or set free.",
+      "skill_list": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ]
+    },
+    "output": {
+      "high_concept": "Memory-Binding Witch Archivist",
+      "trouble": "Echoes of Other Lives Haunt Me",
+      "ranked_skills": [
+        "Lore",
+        "Will",
+        "Investigate",
+        "Empathy",
+        "Notice",
+        "Crafts",
+        "Rapport",
+        "Contacts",
+        "Stealth",
+        "Physique",
+        "Resources",
+        "Athletics",
+        "Deceive",
+        "Provoke",
+        "Fight",
+        "Burglary",
+        "Shoot",
+        "Drive"
+      ]
+    }
+  },
+  {
+    "input": {
+      "idea": "Repentant warlock severing a pact",
+      "setting": "Broken kingdoms after a demon winter; fiendish contracts persist like legal curses.",
+      "skill_list": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ]
+    },
+    "output": {
+      "high_concept": "Pact-Cursed Warlock on the Run",
+      "trouble": "The Fiend's Mark Still Burns",
+      "ranked_skills": [
+        "Will",
+        "Lore",
+        "Deceive",
+        "Stealth",
+        "Investigate",
+        "Notice",
+        "Fight",
+        "Provoke",
+        "Athletics",
+        "Physique",
+        "Empathy",
+        "Rapport",
+        "Contacts",
+        "Shoot",
+        "Burglary",
+        "Resources",
+        "Crafts",
+        "Drive"
+      ]
+    }
+  },
+  {
+    "input": {
+      "idea": "Time-lost ranger mapping shifting wilds",
+      "setting": "Forests rearrange every dawn; cartographers are folk heroes and oracles argue with maps.",
+      "skill_list": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ]
+    },
+    "output": {
+      "high_concept": "Time-Lost Surveyor of the Shifting Wilds",
+      "trouble": "My Maps Lead to Places That No Longer Exist",
+      "ranked_skills": [
+        "Investigate",
+        "Notice",
+        "Shoot",
+        "Athletics",
+        "Crafts",
+        "Will",
+        "Stealth",
+        "Physique",
+        "Lore",
+        "Fight",
+        "Empathy",
+        "Rapport",
+        "Provoke",
+        "Deceive",
+        "Contacts",
+        "Resources",
+        "Burglary",
+        "Drive"
+      ]
+    }
+  },
+  {
+    "input": {
+      "idea": "Diplomat from a fallen moon",
+      "setting": "Crystalline lunar shards crashed into the sea; refugees barter starlight technology for sanctuary.",
+      "skill_list": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ]
+    },
+    "output": {
+      "high_concept": "Exiled Emissary of the Shattered Moon",
+      "trouble": "My People's Survival Rests On My Shoulders",
+      "ranked_skills": [
+        "Rapport",
+        "Empathy",
+        "Contacts",
+        "Will",
+        "Lore",
+        "Deceive",
+        "Crafts",
+        "Notice",
+        "Investigate",
+        "Resources",
+        "Stealth",
+        "Athletics",
+        "Shoot",
+        "Fight",
+        "Physique",
+        "Provoke",
+        "Burglary",
+        "Drive"
+      ]
+    }
+  },
+  {
+    "input": {
+      "idea": "Cyber-monk decoding corrupted prophecies",
+      "setting": "Neon monastery in a megacity; scriptures live in glitching data-ghosts.",
+      "skill_list": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ]
+    },
+    "output": {
+      "high_concept": "Data-Ghost Scribe of the Neon Monastery",
+      "trouble": "The Glitch Hears Me Back",
+      "ranked_skills": [
+        "Lore",
+        "Investigate",
+        "Will",
+        "Notice",
+        "Empathy",
+        "Athletics",
+        "Stealth",
+        "Fight",
+        "Crafts",
+        "Contacts",
+        "Physique",
+        "Rapport",
+        "Deceive",
+        "Burglary",
+        "Provoke",
+        "Shoot",
+        "Drive",
+        "Resources"
+      ]
+    }
+  },
+  {
+    "input": {
+      "idea": "Beast-speaker hunting corporate poachers",
+      "setting": "Vertical jungle reserve threaded through arcology levels; fauna evolved alongside drones.",
+      "skill_list": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ]
+    },
+    "output": {
+      "high_concept": "Guardian Beast-Speaker of the Arcology Jungle",
+      "trouble": "The Beasts' Rage Is My Own",
+      "ranked_skills": [
+        "Empathy",
+        "Stealth",
+        "Notice",
+        "Athletics",
+        "Shoot",
+        "Investigate",
+        "Will",
+        "Fight",
+        "Physique",
+        "Lore",
+        "Burglary",
+        "Crafts",
+        "Contacts",
+        "Provoke",
+        "Deceive",
+        "Rapport",
+        "Drive",
+        "Resources"
+      ]
+    }
+  },
+  {
+    "input": {
+      "idea": "Runesmith courier with explosive secrets",
+      "setting": "Steam-and-sigil railways where packages are oath-bound; couriers duel with contracts.",
+      "skill_list": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ]
+    },
+    "output": {
+      "high_concept": "Oath-Bound Runesmith Courier",
+      "trouble": "My Last Delivery Went Boom",
+      "ranked_skills": [
+        "Crafts",
+        "Drive",
+        "Lore",
+        "Notice",
+        "Will",
+        "Deceive",
+        "Athletics",
+        "Fight",
+        "Investigate",
+        "Stealth",
+        "Contacts",
+        "Shoot",
+        "Provoke",
+        "Physique",
+        "Rapport",
+        "Resources",
+        "Empathy",
+        "Burglary"
+      ]
+    }
+  },
+  {
+    "input": {
+      "idea": "Exorcist chef feeding restless spirits",
+      "setting": "Harbor city where ghost tides roll in nightly; offerings are tickets to the afterlife ferries.",
+      "skill_list": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ]
+    },
+    "output": {
+      "high_concept": "Ferryman's Chef for the Restless Dead",
+      "trouble": "I Feel Their Unfinished Business",
+      "ranked_skills": [
+        "Crafts",
+        "Lore",
+        "Empathy",
+        "Will",
+        "Investigate",
+        "Contacts",
+        "Notice",
+        "Rapport",
+        "Resources",
+        "Physique",
+        "Deceive",
+        "Stealth",
+        "Provoke",
+        "Fight",
+        "Athletics",
+        "Drive",
+        "Burglary",
+        "Shoot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "idea": "Golem-rights advocate learning to feel",
+      "setting": "Industrial league debates personhood of constructs; artisan unions sponsor sentience trials.",
+      "skill_list": [
+        "Athletics",
+        "Burglary",
+        "Contacts",
+        "Crafts",
+        "Deceive",
+        "Drive",
+        "Empathy",
+        "Fight",
+        "Investigate",
+        "Lore",
+        "Notice",
+        "Physique",
+        "Provoke",
+        "Rapport",
+        "Resources",
+        "Shoot",
+        "Stealth",
+        "Will"
+      ]
+    },
+    "output": {
+      "high_concept": "Heartfelt Orator for the Heartless",
+      "trouble": "A Slave to Newly Awakened Emotions",
+      "ranked_skills": [
+        "Rapport",
+        "Empathy",
+        "Lore",
+        "Will",
+        "Provoke",
+        "Contacts",
+        "Investigate",
+        "Notice",
+        "Deceive",
+        "Resources",
+        "Physique",
+        "Athletics",
+        "Fight",
+        "Stealth",
+        "Crafts",
+        "Burglary",
+        "Shoot",
+        "Drive"
+      ]
+    }
+  }
+]

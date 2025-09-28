@@ -1,0 +1,55 @@
+[
+  { "idea": "Witty detective with a dark past", "setting": null },
+  { "idea": "Exiled noble turned wandering swordmage", "setting": null },
+  { "idea": "Cynical medic who can hear ghosts", "setting": null },
+  { "idea": "Optimistic archaeologist chasing forbidden myths", "setting": null },
+  { "idea": "Retired monster hunter pulled back in", "setting": null },
+  { "idea": "Runaway alchemist seeking a cure", "setting": null },
+  { "idea": "Clockwork tinkerer with a human heart", "setting": null },
+  { "idea": "Gentle giant sworn to nonviolence", "setting": null },
+  { "idea": "Silver-tongued thief with a code", "setting": null },
+  { "idea": "Haunted bard who remembers future songs", "setting": null },
+
+  {
+    "idea": "Daring skyship pilot chasing living storms",
+    "setting": "Shattered archipelago where cities float above an endless storm belt; guilds hoard wind-lore."
+  },
+  {
+    "idea": "Archivist witch binding stray memories",
+    "setting": "A city built inside a petrified god; memories become spirits that must be archived or set free."
+  },
+  {
+    "idea": "Repentant warlock severing a pact",
+    "setting": "Broken kingdoms after a demon winter; fiendish contracts persist like legal curses."
+  },
+  {
+    "idea": "Time-lost ranger mapping shifting wilds",
+    "setting": "Forests rearrange every dawn; cartographers are folk heroes and oracles argue with maps."
+  },
+  {
+    "idea": "Diplomat from a fallen moon",
+    "setting": "Crystalline lunar shards crashed into the sea; refugees barter starlight technology for sanctuary."
+  },
+  {
+    "idea": "Cyber-monk decoding corrupted prophecies",
+    "setting": "Neon monastery in a megacity; scriptures live in glitching data-ghosts."
+  },
+  {
+    "idea": "Beast-speaker hunting corporate poachers",
+    "setting": "Vertical jungle reserve threaded through arcology levels; fauna evolved alongside drones."
+  },
+  {
+    "idea": "Runesmith courier with explosive secrets",
+    "setting": "Steam-and-sigil railways where packages are oath-bound; couriers duel with contracts."
+  },
+  {
+    "idea": "Exorcist chef feeding restless spirits",
+    "setting": "Harbor city where ghost tides roll in nightly; offerings are tickets to the afterlife ferries."
+  },
+  {
+    "idea": "Golem-rights advocate learning to feel",
+    "setting": "Industrial league debates personhood of constructs; artisan unions sponsor sentience trials."
+  }
+]
+
+

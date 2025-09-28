@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/static/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">
+        <h1 class="brand-title"><span class="brand-icon">🎲</span> Character Generator for Fate Core</h1>
+      </div>
+      <nav class="primary-nav" aria-label="Primary">
+        <button id="history-btn" type="button" class="nav-link" title="History" aria-label="Open History">
+          <i class="fa-solid fa-clock-rotate-left"></i><span>History</span>
+        </button>
+        <button id="edit-skills-open" type="button" class="nav-link" title="Edit skills" aria-label="Edit skills"><i class="fa-solid fa-sliders"></i><span>Edit skills</span></button>
+        <button id="about-open" type="button" class="nav-link" title="About" aria-label="About"><i class="fa-regular fa-circle-question"></i><span>About</span></button>
+      </nav>
+    </header>
+    <main>
+      
+      <div class="sheet">
+        <section class="section meta">
+          <h2>Generate</h2>
+          <input type="text" class="field large" aria-label="Idea" id="idea-input" placeholder="Character idea..." value="" />
+
+          <div class="meta-grid">
+            <div>
+              <label class="label">Setting</label>
+              <input type="text" class="field" aria-label="Setting" id="setting-input" placeholder="World description (optional)" value="" />
+            </div>
+          </div>
+          <div class="control-grid">
+            <div class="row">
+              <button id="generate-skeleton-btn" type="button" class="btn btn-primary btn-lg">Generate Character</button>
+              <div id="status-message" class="label" aria-live="polite"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section aspects">
+          <h2>Aspects</h2>
+          <ul class="list">
+            <li>
+              <label class="label">High Concept</label>
+              <div class="field" aria-label="High Concept" id="high-concept-field"></div>
+              <button id="regen-high-btn" type="button" class="icon-btn lock" title="Regenerate High Concept" aria-label="Regenerate High Concept">↻</button>
+              <button type="button" class="icon-btn help" data-help-type="aspect" data-help-id="aspect-high-concept" title="How to use?" aria-label="How to use?">
+                <i class="fa-regular fa-circle-question"></i>
+              </button>
+            </li>
+            <li>
+              <label class="label">Trouble</label>
+              <div class="field" aria-label="Trouble" id="trouble-field"></div>
+              <button id="regen-trouble-btn" type="button" class="icon-btn lock" title="Regenerate Trouble" aria-label="Regenerate Trouble">↻</button>
+              <button type="button" class="icon-btn help" data-help-type="aspect" data-help-id="aspect-trouble" title="How to use?" aria-label="How to use?">
+                <i class="fa-regular fa-circle-question"></i>
+              </button>
+            </li>
+          </ul>
+          <div class="control-grid" id="add-aspect-controls">
+            <div class="row">
+              <label class="label" for="aspect-add-note">Preference (optional)</label>
+              <input id="aspect-add-note" type="text" placeholder="Theme, motif, or constraint for the aspect" />
+            </div>
+            <button id="add-aspect-btn" type="button" class="btn btn-secondary">New Aspect</button>
+          </div>
+          <div class="control-grid">
+            <div class="row">
+              <div id="aspects-status-message" class="label" aria-live="polite"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section skills">
+          <h2>Skills (1–4 Pyramid)</h2>
+          <div class="ladder-controls">
+            <label class="label" for="ladder-type-select">Ladder</label>
+            <select id="ladder-type-select" aria-label="Ladder Type">
+              <option value="1-4" selected>1–4</option>
+              <option value="1-5">1–5</option>
+            </select>
+            <!-- <button id="regen-skills-btn" type="button" title="Regenerate Skills (respects locks)">↻ Regenerate</button> -->
+            <button id="clear-skills-btn" type="button" class="btn" title="Remove all unlocked skills">Clear</button>
+          </div>
+          <div class="skills-grid" id="skills-grid">
+            <div class="skills-row">
+              <div class="rank">+4</div>
+              <div class="cells">
+                <div class="cell">Fight</div>
+              </div>
+            </div>
+            <div class="skills-row">
+              <div class="rank">+3</div>
+              <div class="cells" style="--cols:2">
+                <div class="cell">Notice</div>
+                <div class="cell">Will</div>
+              </div>
+            </div>
+            <div class="skills-row">
+              <div class="rank">+2</div>
+              <div class="cells" style="--cols:3">
+                <div class="cell">Stealth</div>
+                <div class="cell">Physique</div>
+                <div class="cell">Deceive</div>
+              </div>
+            </div>
+            <div class="skills-row">
+              <div class="rank">+1</div>
+              <div class="cells" style="--cols:4">
+                <div class="cell">Shoot</div>
+                <div class="cell">Athletics</div>
+                <div class="cell">Investigate</div>
+                <div class="cell">Rapport</div>
+              </div>
+            </div>
+          </div>
+          <!-- skills-footer with pool is injected by JS -->
+        </section>
+
+        <section class="section stunts">
+          <h2>Stunts</h2>
+          <ul class="list" id="stunts-list">
+          </ul>
+          <div class="control-grid" id="add-stunt-controls">
+            <div class="row">
+              <label class="label" for="stunt-add-skill">Skill</label>
+              <select id="stunt-add-skill">
+                <option value="">Auto</option>
+              </select>
+            </div>
+            <div class="row">
+              <label class="label" for="stunt-add-action">Action</label>
+              <select id="stunt-add-action">
+                <option value="">Auto</option>
+                <option value="overcome">Overcome</option>
+                <option value="create_advantage">Create Advantage</option>
+                <option value="attack">Attack</option>
+                <option value="defend">Defend</option>
+              </select>
+            </div>
+            <div class="row">
+              <label class="label" for="stunt-add-note">Note (optional)</label>
+              <input id="stunt-add-note" type="text" placeholder="Any flavor/mechanics hint..." />
+            </div>
+            <button id="add-stunt-btn" type="button" class="btn btn-secondary">Add Stunt</button>
+          </div>
+          <div class="control-grid">
+            <div class="row">
+              <div id="details-status-message" class="label" aria-live="polite"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <nav class="footer-links" aria-label="Contact links">
+          <a class="link-chip" href="mailto:michael@pavlukhinlab.com"><i class="fa-solid fa-envelope"></i><span>michael@pavlukhinlab.com</span></a>
+          <a class="link-chip" href="https://pavlukhinlab.com" target="_blank" rel="noopener"><i class="fa-solid fa-globe"></i><span>Pavlukhin Lab</span></a>
+          <a class="link-chip" href="https://github.com/Archelunch" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i><span>GitHub</span></a>
+          <a class="link-chip" href="https://x.com/mike_pavlukhin" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i><span>X/Twitter</span></a>
+        </nav>
+      </div>
+    </footer>
+    <div id="toast-root" class="toast-container" aria-live="polite" aria-atomic="true"></div>
+    <div id="gm-popover" class="gm-popover" role="dialog" aria-modal="false" hidden>
+      <div class="gm-popover-header">
+        <div class="gm-popover-title" id="gm-popover-title"></div>
+        <button id="gm-popover-close" type="button" class="icon-btn" title="Close" aria-label="Close">✕</button>
+      </div>
+      <div class="gm-popover-body" id="gm-popover-body"></div>
+      <div class="gm-popover-footer">
+        <button id="gm-popover-more" type="button" class="btn">More like this</button>
+      </div>
+    </div>
+    <aside id="history-drawer" class="history-drawer" aria-hidden="true">
+      <div class="history-header">
+        <h3>History</h3>
+        <button id="history-close" type="button" class="icon-btn" title="Close" aria-label="Close">✕</button>
+      </div>
+      <div id="history-list" class="history-list"></div>
+    </aside>
+    <!-- Skills Editor Modal -->
+    <div id="skills-editor" class="modal" role="dialog" aria-modal="true" aria-labelledby="skills-editor-title" hidden>
+      <div class="modal-backdrop" data-close="skills-editor"></div>
+      <div class="modal-panel skills-editor-panel">
+        <div class="modal-header">
+          <h3 id="skills-editor-title">Edit Skills</h3>
+          <button id="skills-editor-close" type="button" class="icon-btn" title="Close" aria-label="Close">✕</button>
+        </div>
+        <div class="modal-body">
+          <div class="skills-editor-controls">
+            <button id="skills-editor-add" type="button" class="btn">Add Skill</button>
+            <button id="skills-editor-reset" type="button" class="btn">Reset to Default</button>
+          </div>
+          <ul id="skills-editor-list" class="skills-editor-list"></ul>
+        </div>
+        <div class="modal-footer">
+          <button id="skills-editor-cancel" type="button" class="btn">Cancel</button>
+          <button id="skills-editor-apply" type="button" class="btn btn-primary">Apply</button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- About Modal -->
+    <div id="about-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="about-title" hidden>
+      <div class="modal-backdrop" data-close="about"></div>
+      <div class="modal-panel">
+        <div class="modal-header">
+          <h3 id="about-title">About</h3>
+          <button id="about-close" type="button" class="icon-btn" title="Close" aria-label="Close">✕</button>
+        </div>
+        <div class="modal-body">
+          <div class="gm-hint">
+            <div class="gm-hint-header"><span class="gm-hint-title">Motivation</span></div>
+            <div class="gm-hint-narrative">I built Fate Generator for myself and my friends to make Fate character creation quicker and easier. It's an unofficial personal project. If it happens to be useful for anyone else, I'll be happy to hear about it.</div>
+          </div>
+          <div class="gm-hint">
+            <div class="gm-hint-header"><span class="gm-hint-title">How to use</span></div>
+            <div class="gm-hint-narrative">Start with a character idea and generate initial aspects and skills. Drag skills between rows to reorder them. Add or tweak aspects and stunts in the section below. You can always get examples of how you can use aspects or stunts in the game. Use Edit skills to change the available skill list.</div>
+          </div>
+          <div class="gm-hint">
+            <div class="gm-hint-header"><span class="gm-hint-title">Contacts</span></div>
+            <div class="gm-hint-narrative">Questions or feedback?</div>
+            <div class="contacts-row">
+              <a class="contact-chip" href="mailto:michael@pavlukhinlab.com"><i class="fa-solid fa-envelope"></i><span>michael@pavlukhinlab.com</span></a>
+              <a class="contact-chip" href="https://pavlukhinlab.com" target="_blank" rel="noopener"><i class="fa-solid fa-globe"></i><span>Pavlukhin Lab</span></a>
+              <a class="contact-chip" href="https://x.com/mike_pavlukhin" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i><span>X/Twitter</span></a>
+            </div>
+          </div>
+          <div class="gm-hint">
+            <div class="gm-hint-header"><span class="gm-hint-title">Support</span></div>
+            <div class="gm-hint-narrative">If you find this tool helpful, you can support my work:</div>
+            <div class="gm-hint-narrative support-cta">
+              <div class="bmc-wrap">
+                <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="mike_pavlukhin" data-color="#0f172a" data-emoji="🎲"  data-font="Inter" data-text="Boost my next roll" data-outline-color="#ffffff" data-font-color="#ffffff" data-coffee-color="#FFDD00"></script>
+              </div>
+            </div>
+          </div>
+          <div class="about-legal">
+            This work is based on Fate Core System and Fate Accelerated Edition (found at <a href="https://fate-srd.com" target="_blank" rel="noopener">fate-srd.com</a>), products of Evil Hat Productions, LLC, developed, authored, and edited by Leonard Balsera, Brian Engard, Jeremy Keller, Ryan Macklin, Mike Olson, Clark Valentine, Amanda Valentine, Fred Hicks, and Rob Donoghue, and licensed for our use under the Creative Commons Attribution 3.0 Unported license (<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">CC BY 3.0</a>).
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button id="about-ok" type="button" class="btn btn-primary">Okay</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/static/js/main.js"></script>
+  </body>
+  </html>
+
+
