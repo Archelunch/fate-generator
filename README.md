@@ -6,7 +6,8 @@
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-orange?logo=buy-me-a-coffee)](https://www.buymeacoffee.com/maktail)
 
 > An Tool to quickly generate characters for the Fate Core tabletop RPG powered by [DSPy](https://dspy.ai).
-
+> 
+> You can try it on https://generators.pavlukhinlab.com
 ## Table of Contents
 
 - [Fate Generator](#fate-generator)
